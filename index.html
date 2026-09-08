@@ -170,15 +170,11 @@
 
 <script>
   let rows = [];
-  let sortKey = 'acr';
+  let sortKey = 'rank';
   let sortDir = -1;
 
-  // "Rank" isn't a stored field -- it's always just this row's position (1..N)
-  // in whatever order the table is currently sorted by, so switching the sort
-  // to RPI or SOS re-numbers it to match. Clicking the header re-sorts by ACR,
-  // the primary metric the site's default ranking is based on.
   const columns = [
-    { key: 'acr', label: 'Rank', num: true, rankCol: true },
+    { key: 'rank', label: 'Rank', num: true },
     { key: 'team', label: 'Team' },
     { key: 'record', label: 'Record' },
     { key: 'acr', label: 'ACR', num: true },
@@ -186,13 +182,21 @@
     { key: 'sos', label: 'SOS', num: true },
   ];
 
+  // "Rank" isn't a field pulled from the data -- clicking it (or loading the
+  // page) sorts by ACR, the site's primary metric, and every other column's
+  // rank position is just its row index in whatever order is currently shown.
+  function sortField(key) {
+    return key === 'rank' ? 'acr' : key;
+  }
+
   function fmt(v) {
     return typeof v === 'number' ? v.toFixed(3) : v;
   }
 
   function render() {
+    const field = sortField(sortKey);
     const sorted = [...rows].sort((a, b) => {
-      let av = a[sortKey], bv = b[sortKey];
+      let av = a[field], bv = b[field];
       if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
       if (av < bv) return -1 * sortDir;
       if (av > bv) return 1 * sortDir;
@@ -200,9 +204,9 @@
     });
 
     const thead = columns.map(c => {
-      const active = !c.rankCol && c.key === sortKey;
-      const arrow = c.rankCol ? '' : `<span class="arrow">${active ? (sortDir === 1 ? '▲' : '▼') : '▲'}</span>`;
-      return `<th class="${c.num ? 'num' : ''} ${active ? 'active' : ''}" data-key="${c.key}">${c.label}${arrow}</th>`;
+      const active = c.key === sortKey;
+      const arrow = active ? (sortDir === 1 ? '▲' : '▼') : '▲';
+      return `<th class="${c.num ? 'num' : ''} ${active ? 'active' : ''}" data-key="${c.key}">${c.label}<span class="arrow">${arrow}</span></th>`;
     }).join('');
 
     const tbody = sorted.map((r, i) => `
