@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NCAA D1 Field Hockey Ratings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --chalk: #F6F4EC;
+    --surface: #FFFDF7;
+    --pitch: #1F3D2E;
+    --pitch-light: #2F6B4F;
+    --brass: #A6803D;
+    --brass-dark: #7A5E28;
+    --line: #DAD5C4;
+    --line-strong: #C3BCA4;
+    --ink: #22281F;
+    --ink-soft: #5C6154;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--chalk);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+  }
+
+  header {
+    border-bottom: 2px solid var(--pitch);
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    margin: 0 0 0.35rem;
+    color: var(--pitch);
+    letter-spacing: -0.01em;
+  }
+
+  .meta {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+  }
+
+  .meta span::after {
+    content: '·';
+    margin-left: 1rem;
+    color: var(--line-strong);
+  }
+  .meta span:last-child::after { content: ''; margin: 0; }
+
+  .methodology {
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    max-width: 640px;
+    margin: 0.9rem 0 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+
+  thead th {
+    text-align: left;
+    font-weight: 500;
+    color: var(--pitch);
+    border-bottom: 1.5px solid var(--pitch);
+    padding: 0.55rem 0.6rem;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  thead th:hover { background: rgba(31, 61, 46, 0.05); }
+
+  thead th .arrow {
+    display: inline-block;
+    margin-left: 4px;
+    opacity: 0.35;
+    font-size: 0.75em;
+  }
+  thead th.active .arrow { opacity: 1; color: var(--brass-dark); }
+
+  th.num, td.num { text-align: right; }
+
+  tbody tr {
+    border-bottom: 1px solid var(--line);
+  }
+  tbody tr:hover { background: rgba(31, 61, 46, 0.035); }
+
+  td {
+    padding: 0.5rem 0.6rem;
+    vertical-align: middle;
+  }
+
+  td.rank {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 600;
+    color: var(--brass-dark);
+    width: 2.2rem;
+  }
+
+  td.team { font-weight: 500; }
+
+  td.record { color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+
+  td.num { font-variant-numeric: tabular-nums; }
+
+  .status {
+    padding: 2rem 0;
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+  }
+
+  .status.error { color: #8a3b2c; }
+
+  footer {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 560px) {
+    h1 { font-size: 1.5rem; }
+    table { font-size: 0.82rem; }
+    thead th, td { padding: 0.4rem 0.4rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>NCAA D1 field hockey ratings</h1>
+    <div class="meta" id="meta"></div>
+    <p class="methodology">
+      Record, ACR, RPI and SOS computed from Division 1 vs. Division 1 results only.
+      RPI = 0.25 × win pct + 0.50 × strength of schedule + 0.25 × opponents' SOS.
+      ACR blends a goal-differential rating (5-goal cap per game) with a win/loss
+      rating. For entertainment purposes only.
+    </p>
+  </header>
+
+  <div id="content">
+    <p class="status">Loading ratings…</p>
+  </div>
+
+  <footer>Data refreshes daily. Source: FinalWhistleFH.com, D1 divisional games only.</footer>
+</div>
+
+<script>
+  let rows = [];
+  let sortKey = 'rank';
+  let sortDir = 1;
+
+  const columns = [
+    { key: 'rank', label: 'Rank', num: true },
+    { key: 'team', label: 'Team' },
+    { key: 'record', label: 'Record' },
+    { key: 'acr', label: 'ACR', num: true },
+    { key: 'rpi', label: 'RPI', num: true },
+    { key: 'sos', label: 'SOS', num: true },
+  ];
+
+  function fmt(v) {
+    return typeof v === 'number' ? v.toFixed(3) : v;
+  }
+
+  function render() {
+    const sorted = [...rows].sort((a, b) => {
+      let av = a[sortKey], bv = b[sortKey];
+      if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+      if (av < bv) return -1 * sortDir;
+      if (av > bv) return 1 * sortDir;
+      return 0;
+    });
+
+    const thead = columns.map(c => {
+      const active = c.key === sortKey;
+      const arrow = active ? (sortDir === 1 ? '▲' : '▼') : '▲';
+      return `<th class="${c.num ? 'num' : ''} ${active ? 'active' : ''}" data-key="${c.key}">${c.label}<span class="arrow">${arrow}</span></th>`;
+    }).join('');
+
+    const tbody = sorted.map(r => `
+      <tr>
+        <td class="rank">${r.rank}</td>
+        <td class="team">${r.team}</td>
+        <td class="record">${r.record}</td>
+        <td class="num">${fmt(r.acr)}</td>
+        <td class="num">${fmt(r.rpi)}</td>
+        <td class="num">${fmt(r.sos)}</td>
+      </tr>`).join('');
+
+    document.getElementById('content').innerHTML = `
+      <table>
+        <thead><tr>${thead}</tr></thead>
+        <tbody>${tbody}</tbody>
+      </table>`;
+
+    document.querySelectorAll('thead th').forEach(th => {
+      th.addEventListener('click', () => {
+        const key = th.dataset.key;
+        if (sortKey === key) { sortDir *= -1; }
+        else { sortKey = key; sortDir = key === 'team' ? 1 : -1; }
+        render();
+      });
+    });
+  }
+
+  async function load() {
+    try {
+      const res = await fetch('ratings.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      rows = data.ratings || [];
+      if (!rows.length) throw new Error('No teams in ratings.json');
+
+      document.getElementById('meta').innerHTML = `
+        <span>Division ${data.division}</span>
+        <span>${data.year} season</span>
+        <span>${data.games_counted} games counted</span>
+        <span>${rows.length} teams</span>
+      `;
+      render();
+    } catch (err) {
+      document.getElementById('content').innerHTML =
+        `<p class="status error">Couldn't load ratings.json (${err.message}). Check that the file exists at the repo root and the latest Action run succeeded.</p>`;
+    }
+  }
+
+  load();
+</script>
+</body>
+</html>
