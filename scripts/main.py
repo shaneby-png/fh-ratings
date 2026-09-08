@@ -13,7 +13,7 @@ import sys
 
 from fetch import fetch_schedule_text
 from scraper import parse_games
-from ratings import compute_ratings
+from ratings import compute_ratings, build_schedules
 
 
 def main():
@@ -38,6 +38,7 @@ def main():
         sys.exit(1)
 
     rows = compute_ratings(games)
+    schedules = build_schedules(games)
 
     output = {
         "division": args.div,
@@ -54,6 +55,7 @@ def main():
             }
             for i, r in enumerate(rows)
         ],
+        "schedules": schedules,
     }
 
     with open(args.out, "w") as f:
