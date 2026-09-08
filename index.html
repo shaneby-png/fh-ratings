@@ -170,11 +170,15 @@
 
 <script>
   let rows = [];
-  let sortKey = 'rank';
-  let sortDir = 1;
+  let sortKey = 'acr';
+  let sortDir = -1;
 
+  // "Rank" isn't a stored field -- it's always just this row's position (1..N)
+  // in whatever order the table is currently sorted by, so switching the sort
+  // to RPI or SOS re-numbers it to match. Clicking the header re-sorts by ACR,
+  // the primary metric the site's default ranking is based on.
   const columns = [
-    { key: 'rank', label: 'Rank', num: true },
+    { key: 'acr', label: 'Rank', num: true, rankCol: true },
     { key: 'team', label: 'Team' },
     { key: 'record', label: 'Record' },
     { key: 'acr', label: 'ACR', num: true },
@@ -196,14 +200,14 @@
     });
 
     const thead = columns.map(c => {
-      const active = c.key === sortKey;
-      const arrow = active ? (sortDir === 1 ? '▲' : '▼') : '▲';
-      return `<th class="${c.num ? 'num' : ''} ${active ? 'active' : ''}" data-key="${c.key}">${c.label}<span class="arrow">${arrow}</span></th>`;
+      const active = !c.rankCol && c.key === sortKey;
+      const arrow = c.rankCol ? '' : `<span class="arrow">${active ? (sortDir === 1 ? '▲' : '▼') : '▲'}</span>`;
+      return `<th class="${c.num ? 'num' : ''} ${active ? 'active' : ''}" data-key="${c.key}">${c.label}${arrow}</th>`;
     }).join('');
 
-    const tbody = sorted.map(r => `
+    const tbody = sorted.map((r, i) => `
       <tr>
-        <td class="rank">${r.rank}</td>
+        <td class="rank">${i + 1}</td>
         <td class="team">${r.team}</td>
         <td class="record">${r.record}</td>
         <td class="num">${fmt(r.acr)}</td>
