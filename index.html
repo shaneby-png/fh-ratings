@@ -236,6 +236,10 @@
   .schedule-result.W { color: #1F5C3D; background: #E3EFE6; }
   .schedule-result.L { color: #8A3B2C; background: #F5E7E2; }
   .schedule-result.T { color: var(--ink-soft); background: var(--chalk); }
+  .schedule-result.upcoming { color: var(--brass-dark); background: #F3EBDA; }
+
+  .schedule-row.upcoming .schedule-date { color: var(--ink-soft); }
+  .schedule-time { color: var(--ink-soft); font-size: 0.8rem; text-align: right; }
 </style>
 </head>
 <body>
@@ -329,13 +333,24 @@
   function openTeam(team) {
     const games = schedules[team] || [];
     const row = rows.find(r => r.team === team);
-    const list = games.map(g => `
+    const list = games.map(g => {
+      if (g.status === 'upcoming') {
+        return `
+      <div class="schedule-row upcoming">
+        <span class="schedule-date">${g.date}</span>
+        <span>${g.opponent}</span>
+        <span class="schedule-time">${g.time || 'TBD'}</span>
+        <span class="schedule-result upcoming">Next</span>
+      </div>`;
+      }
+      return `
       <div class="schedule-row">
         <span class="schedule-date">${g.date}</span>
         <span>${g.opponent}</span>
         <span class="schedule-score">${g.team_score}-${g.opp_score}${g.ot ? ' ' + g.ot : ''}</span>
         <span class="schedule-result ${g.result}">${g.result}</span>
-      </div>`).join('') || '<p class="status">No games found for this team.</p>';
+      </div>`;
+    }).join('') || '<p class="status">No games found for this team.</p>';
 
     document.getElementById('modal').innerHTML = `
       <div class="modal-head">
