@@ -70,6 +70,36 @@ def _zscore(d: dict[str, float]) -> dict[str, float]:
     return {k: (v - mean) / std for k, v in d.items()}
 
 
+def build_schedules(games: list[Game]) -> dict[str, list[dict]]:
+    """
+    Per-team list of every game played, in the order encountered in `games`
+    (which is the order the source page lists them in -- most recent first).
+    Used to power a team's schedule/results view; not needed for the rating
+    math itself, so this is a separate pass over the same game list.
+    """
+    schedules: dict[str, list[dict]] = defaultdict(list)
+    for g in games:
+        for team, opp, gf, ga, ot in [
+            (g.team_a, g.team_b, g.score_a, g.score_b, g.team_a_ot),
+            (g.team_b, g.team_a, g.score_b, g.score_a, g.team_b_ot),
+        ]:
+            if gf > ga:
+                result = "W"
+            elif gf < ga:
+                result = "L"
+            else:
+                result = "T"
+            schedules[team].append({
+                "date": g.date,
+                "opponent": opp,
+                "team_score": gf,
+                "opp_score": ga,
+                "result": result,
+                "ot": ot,
+            })
+    return schedules
+
+
 def compute_ratings(games: list[Game]) -> list[TeamRow]:
     teams = sorted({g.team_a for g in games} | {g.team_b for g in games})
     team_idx = {t: i for i, t in enumerate(teams)}
