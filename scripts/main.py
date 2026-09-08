@@ -12,7 +12,7 @@ import json
 import sys
 
 from fetch import fetch_schedule_text
-from scraper import parse_games
+from scraper import parse_games, parse_upcoming
 from ratings import compute_ratings, build_schedules
 
 
@@ -38,7 +38,8 @@ def main():
         sys.exit(1)
 
     rows = compute_ratings(games)
-    schedules = build_schedules(games)
+    upcoming = parse_upcoming(text)
+    schedules = build_schedules(games, upcoming)
 
     output = {
         "division": args.div,
