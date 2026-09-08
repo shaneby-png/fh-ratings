@@ -659,5 +659,2491 @@
       "rpi": 0.0938,
       "sos": 0.0
     }
-  ]
+  ],
+  "schedules": {
+    "Maryland": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Drexel",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Temple",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Boston College",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Duke",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Drexel": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Maryland",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "James Madison",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "LIU",
+        "team_score": 11,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "St. Joseph's",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Duke": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "William & Mary",
+        "team_score": 7,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Richmond",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Northwestern",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Maryland",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "William & Mary": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Duke",
+        "team_score": 0,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Longwood",
+        "team_score": 5,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "VCU",
+        "team_score": 2,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Maine": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Liberty",
+        "team_score": 0,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Massachusetts",
+        "team_score": 0,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Stonehill",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Davidson",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Liberty": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Maine",
+        "team_score": 5,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Massachusetts",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "St. Joseph's",
+        "team_score": 5,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "James Madison",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Louisville": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Miami (OH)",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Indiana",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Saint Louis",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Michigan State",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Miami (OH)": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Louisville",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Indiana",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Michigan State",
+        "team_score": 6,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "St. Joseph's": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "New Hampshire",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "UConn",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Liberty",
+        "team_score": 1,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Drexel",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "New Hampshire": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "St. Joseph's",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "UConn",
+        "team_score": 0,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Indiana",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Central Michigan",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "UAlbany": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Wagner",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Boston College",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Colgate",
+        "team_score": 4,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Yale",
+        "team_score": 1,
+        "opp_score": 9,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Wagner": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "UAlbany",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Rutgers",
+        "team_score": 1,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Hofstra",
+        "team_score": 4,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Temple",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Ohio": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Michigan State",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Saint Louis",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Queens (NC)",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Wake Forest",
+        "team_score": 1,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Michigan State": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Ohio",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Saint Louis",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Miami (OH)",
+        "team_score": 0,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Louisville",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Boston College": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Providence",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "UAlbany",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Maryland",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Northwestern",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Providence": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Boston College",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Boston University",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "New Haven",
+        "team_score": 11,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Bryant",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "James Madison": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Temple",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Drexel",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Liberty",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Temple": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "James Madison",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Maryland",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Lafayette",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Wagner",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Quinnipiac": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Bryant",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Vermont",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Bucknell",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Brown",
+        "team_score": 2,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Bryant": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Quinnipiac",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Hofstra",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Merrimack",
+        "team_score": 10,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Providence",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Richmond": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Queens (NC)",
+        "team_score": 12,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Duke",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "American",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Longwood",
+        "team_score": 6,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Queens (NC)": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Richmond",
+        "team_score": 0,
+        "opp_score": 12,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Longwood",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Ohio",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Fairfield": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Syracuse",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Holy Cross",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "LIU",
+        "team_score": 7,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Syracuse": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Fairfield",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Northeastern",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Ohio State",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Rutgers",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Vermont": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Northeastern",
+        "team_score": 5,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Quinnipiac",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Sep 5",
+        "opponent": "Kent State",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Michigan",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Northeastern": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Vermont",
+        "team_score": 2,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Syracuse",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Holy Cross",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Kent State": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Lafayette",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "VCU",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Michigan",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Sep 5",
+        "opponent": "Vermont",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Lafayette": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Kent State",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Northwestern",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Temple",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Mon, \n                Sep 7",
+        "opponent": "Cornell",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Michigan": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "North Carolina",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Wake Forest",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Kent State",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Vermont",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "North Carolina": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Michigan",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Iowa",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Penn",
+        "team_score": 7,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Princeton",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Bucknell": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Ball State",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Sacred Heart",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Quinnipiac",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Cornell",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Ball State": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Bucknell",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Sacred Heart",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Sep 5",
+        "opponent": "Lehigh",
+        "team_score": 5,
+        "opp_score": 4,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Iowa",
+        "team_score": 0,
+        "opp_score": 8,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Boston University": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Merrimack",
+        "team_score": 7,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Providence",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Massachusetts",
+        "team_score": 1,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Dartmouth",
+        "team_score": 5,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Merrimack": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Boston University",
+        "team_score": 2,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Bryant",
+        "team_score": 1,
+        "opp_score": 10,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Holy Cross",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "UC Davis": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Central Michigan",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "UMass Lowell",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Columbia",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Bellarmine",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Central Michigan": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "UC Davis",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "California",
+        "team_score": 2,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Mon, \n                Sep 31",
+        "opponent": "Stanford",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "New Hampshire",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Mon, \n                Sep 7",
+        "opponent": "Indiana",
+        "team_score": 0,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Delaware": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Villanova",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Monmouth",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Penn State",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Villanova": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Delaware",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "La Salle",
+        "team_score": 7,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Penn State",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "New Haven",
+        "team_score": 10,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Ohio State": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Old Dominion",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Bellarmine",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Syracuse",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Virginia",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Old Dominion": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Ohio State",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Bellarmine",
+        "team_score": 7,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Princeton",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Penn",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Monmouth": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Rutgers",
+        "team_score": 5,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Delaware",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Rider",
+        "team_score": 8,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Rutgers": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Monmouth",
+        "team_score": 1,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Wagner",
+        "team_score": 7,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Virginia",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Syracuse",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Lehigh": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "LIU",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Iowa",
+        "team_score": 0,
+        "opp_score": 9,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Sep 5",
+        "opponent": "Ball State",
+        "team_score": 4,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "LIU": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Lehigh",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Drexel",
+        "team_score": 0,
+        "opp_score": 11,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Fairfield",
+        "team_score": 0,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Wake Forest": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Iowa",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Michigan",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Ohio",
+        "team_score": 6,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Iowa": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Wake Forest",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "North Carolina",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Lehigh",
+        "team_score": 9,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Ball State",
+        "team_score": 8,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Appalachian State": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Towson",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Georgetown",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Wed, \n                Sep 2",
+        "opponent": "Davidson",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "American",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Towson": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Appalachian State",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Davidson",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Georgetown",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Rider",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Holy Cross": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Stonehill",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Fairfield",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Northeastern",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Merrimack",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Stonehill": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Holy Cross",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Maine",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Sep 5",
+        "opponent": "Davidson",
+        "team_score": 0,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Davidson": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Georgetown",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Towson",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Wed, \n                Sep 2",
+        "opponent": "Appalachian State",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sat, \n                Sep 5",
+        "opponent": "Stonehill",
+        "team_score": 6,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Maine",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Georgetown": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Davidson",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Appalachian State",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Towson",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Lock Haven",
+        "team_score": 6,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "California": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "American",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Central Michigan",
+        "team_score": 4,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Columbia",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "American": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "California",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Stanford",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Richmond",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Appalachian State",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Lock Haven": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Mercyhurst",
+        "team_score": 5,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Penn State",
+        "team_score": 0,
+        "opp_score": 8,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Georgetown",
+        "team_score": 0,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Mercyhurst": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Lock Haven",
+        "team_score": 2,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Saint Louis",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Colgate": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "New Haven",
+        "team_score": 5,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Rider",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "UAlbany",
+        "team_score": 2,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "La Salle",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "New Haven": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Colgate",
+        "team_score": 0,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Providence",
+        "team_score": 0,
+        "opp_score": 11,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Villanova",
+        "team_score": 0,
+        "opp_score": 10,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Hofstra": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Rider",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Bryant",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Wagner",
+        "team_score": 5,
+        "opp_score": 4,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Rider": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Hofstra",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Colgate",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Monmouth",
+        "team_score": 0,
+        "opp_score": 8,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Towson",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Penn State": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Virginia",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Lock Haven",
+        "team_score": 8,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Villanova",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Delaware",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Virginia": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Penn State",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Rutgers",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Ohio State",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Northwestern": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "VCU",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Lafayette",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Duke",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Boston College",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "VCU": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Northwestern",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Kent State",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "William & Mary",
+        "team_score": 4,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Stanford": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "UMass Lowell",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "American",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Mon, \n                Sep 31",
+        "opponent": "Central Michigan",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Bellarmine",
+        "team_score": 5,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "UMass Lowell": [
+      {
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Stanford",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "UC Davis",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Harvard",
+        "team_score": 1,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Massachusetts",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Massachusetts": [
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Liberty",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Maine",
+        "team_score": 7,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Boston University",
+        "team_score": 5,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "UMass Lowell",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "UConn": [
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "New Hampshire",
+        "team_score": 5,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "St. Joseph's",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Brown",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Harvard",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Sacred Heart": [
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Ball State",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Bucknell",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Yale",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Indiana": [
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Miami (OH)",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Louisville",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "New Hampshire",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Mon, \n                Sep 7",
+        "opponent": "Central Michigan",
+        "team_score": 5,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Saint Louis": [
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Michigan State",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Ohio",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Louisville",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Mercyhurst",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Bellarmine": [
+      {
+        "date": "Sat, \n                Aug 29",
+        "opponent": "Old Dominion",
+        "team_score": 0,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Ohio State",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Stanford",
+        "team_score": 0,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "UC Davis",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "La Salle": [
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Villanova",
+        "team_score": 0,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Cornell",
+        "team_score": 0,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Colgate",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Longwood": [
+      {
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Queens (NC)",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "William & Mary",
+        "team_score": 2,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Richmond",
+        "team_score": 0,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Brown": [
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "UConn",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Quinnipiac",
+        "team_score": 4,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Columbia": [
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "UC Davis",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "California",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Princeton": [
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Old Dominion",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "North Carolina",
+        "team_score": 0,
+        "opp_score": 1,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Harvard": [
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "UMass Lowell",
+        "team_score": 5,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "UConn",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Penn": [
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "North Carolina",
+        "team_score": 0,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Old Dominion",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Yale": [
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Sacred Heart",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "UAlbany",
+        "team_score": 9,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      }
+    ],
+    "Cornell": [
+      {
+        "date": "Fri, \n                Sep 4",
+        "opponent": "La Salle",
+        "team_score": 5,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Bucknell",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "date": "Mon, \n                Sep 7",
+        "opponent": "Lafayette",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
+      }
+    ],
+    "Dartmouth": [
+      {
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Boston University",
+        "team_score": 1,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      }
+    ]
+  }
 }
