@@ -156,13 +156,12 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>NCAA D1 Field Hockey Ratings</h1>
+    <h1>NCAA D1 field hockey ratings</h1>
     <div class="meta" id="meta"></div>
     <p class="methodology">
-      Record, ACR, RPI and SOS computed from Division 1 vs. Division 1 results only.
+      Record, RPI and SOS computed from Division 1 vs. Division 1 results only.
       RPI = 0.25 × win pct + 0.50 × strength of schedule + 0.25 × opponents' SOS.
-      ACR blends a goal-differential rating (5-goal cap per game) with a win/loss
-      rating. For entertainment purposes only.
+      For entertainment purposes only.
     </p>
   </header>
 
@@ -170,19 +169,18 @@
     <p class="status">Loading ratings…</p>
   </div>
 
-  <footer>Data refreshes daily.</footer>
+  <footer>Data refreshes daily. Source: FinalWhistleFH.com, D1 divisional games only.</footer>
 </div>
 
 <script>
   let rows = [];
-  let sortKey = 'acr';
+  let sortKey = 'rpi';
   let sortDir = -1;
 
   const columns = [
     { key: 'rank', label: 'Rank', num: true, sortable: false },
     { key: 'team', label: 'Team' },
     { key: 'record', label: 'Record' },
-    { key: 'acr', label: 'ACR', num: true },
     { key: 'rpi', label: 'RPI', num: true },
     { key: 'sos', label: 'SOS', num: true },
   ];
@@ -214,7 +212,6 @@
         <td class="rank">${i + 1}</td>
         <td class="team">${r.team}</td>
         <td class="record">${r.record}</td>
-        <td class="num">${fmt(r.acr)}</td>
         <td class="num">${fmt(r.rpi)}</td>
         <td class="num">${fmt(r.sos)}</td>
       </tr>`).join('');
