@@ -22,6 +22,16 @@ class Game:
     team_b_ot: Optional[str]
 
 
+@dataclass
+class UpcomingGame:
+    date: str
+    time: Optional[str]  # e.g. "12:00 pm (EST)", or None if not yet listed
+    team_a: str
+    team_a_rank: Optional[int]
+    team_b: str
+    team_b_rank: Optional[int]
+
+
 def extract_team_list(raw_text: str) -> list[str]:
     """Pulls the roster of D1 team names from the 'Teams' section of the page."""
     m = re.search(r"\bTeams\b(.*?)\bStats\b", raw_text, re.DOTALL)
@@ -75,21 +85,35 @@ TEAM_SCORE_RE = re.compile(
     rf"(?:\((?P<ot>OT|SO)\))?"
 )
 
+# Matches: <TeamName> [#Rank] [—] (no score required -- used for upcoming
+# fixtures, which show teams but no score yet).
+TEAM_ONLY_RE = re.compile(
+    rf"(?P<team>{TEAM_PATTERN})"
+    rf"(?:\s*#(?P<rank>\d+))?"
+    rf"(?:\s*—)?"
+)
+
+# An upcoming game's body sometimes starts with a "· <time>" prefix before the
+# team names (e.g. "· 12:00 pm (EST)" or "· 3/2:00 pm (CST)" for dual
+# timezones); often it's absent entirely if no time has been announced yet.
+TIME_RE = re.compile(r"^\s*·\s*(?P<time>[\d/:apmAPM\s]+\([A-Z]{2,4}\))")
+
 DATE_RE = re.compile(
     r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}"
 )
 
-# Body is everything between a date (with optional time suffix) and the next
-# "Report / Box Score / Box Score Recap" marker. We deliberately do NOT
-# require the literal word "Final" here: postseason rows show a round label
-# instead (e.g. "NCAA — Championship", "ACC — Semifinal") in that same slot.
-# Non-greedy matching means we still stop at the right terminator regardless
-# of what that in-between label text says. Games with no score yet (future
-# fixtures) or a "Canceled" status naturally fail the two-team-score check
-# below and get skipped, so no separate keyword filtering is needed.
+_DATE_TOKEN = r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}"
+
+# Body is everything between one date and the next date occurrence (or end of
+# text). Every entry on the page -- completed or upcoming -- restates its own
+# date, so this cleanly isolates one entry at a time regardless of what
+# terminator text follows it (a "Box Score" link, a "Watch Live Stats" link,
+# or nothing at all for a game with no stream yet). This replaced an earlier
+# version keyed on "Box Score" as the terminator, which worked for completed
+# games but merged consecutive score-less upcoming games into one unparseable
+# blob since they have no such terminator between them.
 GAME_CHUNK_RE = re.compile(
-    r"(?P<date>(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2})"
-    r"\s+(?P<body>.*?)(?=Report\s+Box Score|Box Score Recap|Box Score(?!\s*Recap)|$)",
+    rf"(?P<date>{_DATE_TOKEN})\s+(?P<body>.*?)(?={_DATE_TOKEN}|$)",
     re.DOTALL,
 )
 
@@ -124,6 +148,49 @@ def parse_games(raw_text: str) -> list[Game]:
             team_b_ot=b.group("ot"),
         ))
     return games
+
+
+def parse_upcoming(raw_text: str) -> list[UpcomingGame]:
+    """
+    Same chunking as parse_games, but for fixtures with no score yet. Any
+    chunk that DOES parse as a completed game (via TEAM_SCORE_RE) is skipped
+    here to avoid double-counting.
+
+    Note: some team names coincide with the city they play in (e.g.
+    "Providence" the team vs. "Providence, RI" the location in the trailing
+    text), which can produce a spurious 3rd team-name match in the location
+    portion of the body. We take only the FIRST TWO matches as the actual
+    competing teams, since those always appear immediately after the
+    date/time prefix, before any trailing location text.
+    """
+    upcoming: list[UpcomingGame] = []
+    seen: set[tuple] = set()
+    for chunk_match in GAME_CHUNK_RE.finditer(raw_text):
+        date = chunk_match.group("date")
+        body = chunk_match.group("body")
+        if body.lstrip().startswith("Canceled"):
+            continue  # a canceled game, not an upcoming one
+        if len(list(TEAM_SCORE_RE.finditer(body))) == 2:
+            continue  # already a completed game, handled by parse_games
+        team_matches = list(TEAM_ONLY_RE.finditer(body))
+        if len(team_matches) < 2:
+            continue  # not a two-team row we recognize -- skip
+        a, b = team_matches[0], team_matches[1]
+        time_match = TIME_RE.match(body)
+        time = time_match.group("time") if time_match else None
+        key = (date, a.group("team"), b.group("team"))
+        if key in seen:
+            continue
+        seen.add(key)
+        upcoming.append(UpcomingGame(
+            date=date,
+            time=time,
+            team_a=a.group("team"),
+            team_a_rank=int(a.group("rank")) if a.group("rank") else None,
+            team_b=b.group("team"),
+            team_b_rank=int(b.group("rank")) if b.group("rank") else None,
+        ))
+    return upcoming
 
 
 if __name__ == "__main__":
