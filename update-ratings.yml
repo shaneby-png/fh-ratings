@@ -1,0 +1,37 @@
+name: Update FH Ratings
+
+on:
+  schedule:
+    # Runs daily at 09:00 UTC (adjust as needed). Cron uses UTC always.
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write   # needed so the workflow can commit ratings.json back
+
+jobs:
+  update-ratings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 numpy
+
+      - name: Run ratings pipeline
+        working-directory: scripts
+        run: python main.py --div 1 --year 2026 --out ../ratings.json
+
+      - name: Commit updated ratings.json if changed
+        run: |
+          git config user.name "fh-ratings-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ratings.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update FH ratings ($(date -u +%Y-%m-%d))"
+          git push
