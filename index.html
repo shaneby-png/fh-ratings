@@ -126,7 +126,12 @@
     width: 2.2rem;
   }
 
-  td.team { font-weight: 500; }
+  td.team {
+    font-weight: 500;
+    color: var(--pitch-light);
+    cursor: pointer;
+  }
+  td.team:hover { text-decoration: underline; }
 
   td.record { color: var(--ink-soft); font-variant-numeric: tabular-nums; }
 
@@ -151,12 +156,92 @@
     table { font-size: 0.82rem; }
     thead th, td { padding: 0.4rem 0.4rem; }
   }
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(31, 40, 31, 0.45);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3.5rem 1rem;
+    overflow-y: auto;
+    z-index: 10;
+  }
+  .overlay.hidden { display: none; }
+
+  .modal {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    max-width: 560px;
+    width: 100%;
+    padding: 1.5rem 1.75rem 1.75rem;
+  }
+
+  .modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid var(--pitch);
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .modal-head h2 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--pitch);
+    margin: 0;
+  }
+
+  .modal-head .close {
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .modal-head .close:hover { color: var(--ink); }
+
+  .modal-record {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin: -0.3rem 0 1rem;
+  }
+
+  .schedule-row {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr 3.5rem 2rem;
+    gap: 0.5rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.88rem;
+    align-items: center;
+  }
+  .schedule-row:last-child { border-bottom: none; }
+
+  .schedule-date { color: var(--ink-soft); font-size: 0.82rem; }
+  .schedule-score { text-align: right; font-variant-numeric: tabular-nums; }
+
+  .schedule-result {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    padding: 0.1rem 0;
+  }
+  .schedule-result.W { color: #1F5C3D; background: #E3EFE6; }
+  .schedule-result.L { color: #8A3B2C; background: #F5E7E2; }
+  .schedule-result.T { color: var(--ink-soft); background: var(--chalk); }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>NCAA D1 Field Hockey Ratings</h1>
+    <h1>NCAA D1 field hockey ratings</h1>
     <div class="meta" id="meta"></div>
     <p class="methodology">
       Record, RPI and SOS computed from Division 1 vs. Division 1 results only.
@@ -169,11 +254,16 @@
     <p class="status">Loading ratings…</p>
   </div>
 
-  <footer>Data refreshes daily.</footer>
+  <footer>Data refreshes daily. Source: FinalWhistleFH.com, D1 divisional games only.</footer>
+</div>
+
+<div class="overlay hidden" id="overlay">
+  <div class="modal" id="modal"></div>
 </div>
 
 <script>
   let rows = [];
+  let schedules = {};
   let sortKey = 'rpi';
   let sortDir = -1;
 
@@ -210,7 +300,7 @@
     const tbody = sorted.map((r, i) => `
       <tr>
         <td class="rank">${i + 1}</td>
-        <td class="team">${r.team}</td>
+        <td class="team" data-team="${r.team}">${r.team}</td>
         <td class="record">${r.record}</td>
         <td class="num">${fmt(r.rpi)}</td>
         <td class="num">${fmt(r.sos)}</td>
@@ -230,7 +320,45 @@
         render();
       });
     });
+
+    document.querySelectorAll('td.team').forEach(td => {
+      td.addEventListener('click', () => openTeam(td.dataset.team));
+    });
   }
+
+  function openTeam(team) {
+    const games = schedules[team] || [];
+    const row = rows.find(r => r.team === team);
+    const list = games.map(g => `
+      <div class="schedule-row">
+        <span class="schedule-date">${g.date}</span>
+        <span>${g.opponent}</span>
+        <span class="schedule-score">${g.team_score}-${g.opp_score}${g.ot ? ' ' + g.ot : ''}</span>
+        <span class="schedule-result ${g.result}">${g.result}</span>
+      </div>`).join('') || '<p class="status">No games found for this team.</p>';
+
+    document.getElementById('modal').innerHTML = `
+      <div class="modal-head">
+        <h2>${team}</h2>
+        <button class="close" id="modal-close">Close ✕</button>
+      </div>
+      <p class="modal-record">${row ? row.record + ' · RPI ' + fmt(row.rpi) : ''}</p>
+      ${list}
+    `;
+    document.getElementById('overlay').classList.remove('hidden');
+    document.getElementById('modal-close').addEventListener('click', closeModal);
+  }
+
+  function closeModal() {
+    document.getElementById('overlay').classList.add('hidden');
+  }
+
+  document.getElementById('overlay').addEventListener('click', (e) => {
+    if (e.target.id === 'overlay') closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
 
   async function load() {
     try {
@@ -238,6 +366,7 @@
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       rows = data.ratings || [];
+      schedules = data.schedules || {};
       if (!rows.length) throw new Error('No teams in ratings.json');
 
       document.getElementById('meta').innerHTML = `
