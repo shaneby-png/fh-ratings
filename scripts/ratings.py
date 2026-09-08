@@ -19,7 +19,7 @@ from collections import defaultdict
 from dataclasses import dataclass
 import numpy as np
 
-from scraper import Game, parse_games
+from scraper import Game, UpcomingGame, parse_games
 
 GOAL_CAP = 5
 
@@ -70,12 +70,26 @@ def _zscore(d: dict[str, float]) -> dict[str, float]:
     return {k: (v - mean) / std for k, v in d.items()}
 
 
-def build_schedules(games: list[Game]) -> dict[str, list[dict]]:
+_MONTH_ORDER = {m: i for i, m in enumerate(
+    ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+     "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+)}
+
+
+def _date_sort_key(date_str: str) -> tuple[int, int]:
+    """'Fri, Sep 5' -> (8, 5) for chronological sort within a single season."""
+    _, rest = date_str.split(", ", 1)
+    month, day = rest.split()
+    return (_MONTH_ORDER.get(month, 0), int(day))
+
+
+def build_schedules(
+    games: list[Game], upcoming: list[UpcomingGame] | None = None
+) -> dict[str, list[dict]]:
     """
-    Per-team list of every game played, in the order encountered in `games`
-    (which is the order the source page lists them in -- most recent first).
-    Used to power a team's schedule/results view; not needed for the rating
-    math itself, so this is a separate pass over the same game list.
+    Per-team list of every game -- played and upcoming -- sorted oldest to
+    newest. Used to power a team's schedule/results view; not needed for the
+    rating math itself, so this is a separate pass over the parsed data.
     """
     schedules: dict[str, list[dict]] = defaultdict(list)
     for g in games:
@@ -90,6 +104,7 @@ def build_schedules(games: list[Game]) -> dict[str, list[dict]]:
             else:
                 result = "T"
             schedules[team].append({
+                "status": "final",
                 "date": g.date,
                 "opponent": opp,
                 "team_score": gf,
@@ -97,6 +112,19 @@ def build_schedules(games: list[Game]) -> dict[str, list[dict]]:
                 "result": result,
                 "ot": ot,
             })
+
+    for u in (upcoming or []):
+        for team, opp in [(u.team_a, u.team_b), (u.team_b, u.team_a)]:
+            schedules[team].append({
+                "status": "upcoming",
+                "date": u.date,
+                "time": u.time,
+                "opponent": opp,
+            })
+
+    for team in schedules:
+        schedules[team].sort(key=lambda row: _date_sort_key(row["date"]))
+
     return schedules
 
 
