@@ -36,24 +36,33 @@ def extract_team_list(raw_text: str) -> list[str]:
     return chunk  # returned raw; real team list should be supplied explicitly (see TEAMS below)
 
 
-# Known D1 team names (verbatim from the site's Teams listing, longest-first
-# for correct greedy regex matching of multi-word names like "William & Mary").
-TEAMS = sorted([
-    "American", "Appalachian State", "Ball State", "Bellarmine", "Boston College",
-    "Boston University", "Brown", "Bryant", "Bucknell", "California",
-    "Central Michigan", "Colgate", "Columbia", "Cornell", "Dartmouth", "Davidson",
-    "Delaware", "Drexel", "Duke", "Fairfield", "Georgetown", "Harvard", "Hofstra",
-    "Holy Cross", "Indiana", "Iowa", "James Madison", "Kent State", "La Salle",
-    "Lafayette", "Lehigh", "Liberty", "LIU", "Lock Haven", "Longwood", "Louisville",
-    "Maine", "Maryland", "Massachusetts", "Mercyhurst", "Merrimack", "Miami (OH)",
+# Known D1 team names, longest-first for correct greedy regex matching of
+# multi-word names like "William & Mary". This is a UNION across multiple
+# seasons' rosters (team names/branding can change year to year -- e.g. the
+# site calls the same program "Albany" in 2025 and "UAlbany" in 2026, and
+# "Saint Francis" appears in some seasons' D1 slate but not others). Being a
+# superset is safe: it only serves as an allow-list for "is this a D1 game",
+# so an extra name that never appears in a given season's data is harmless.
+# When validating a new season, check for parser warnings about unmatched
+# multi-team rows -- that's the signal a name needs to be added here.
+TEAMS = sorted(set([
+    "Albany", "American", "Appalachian State", "Ball State", "Bellarmine",
+    "Boston College", "Boston University", "Brown", "Bryant", "Bucknell",
+    "California", "Central Michigan", "Colgate", "Columbia", "Cornell",
+    "Dartmouth", "Davidson", "Delaware", "Drexel", "Duke", "Fairfield",
+    "Georgetown", "Harvard", "Hofstra", "Holy Cross", "Indiana", "Iowa",
+    "James Madison", "Kent State", "La Salle", "Lafayette", "Lehigh",
+    "Liberty", "LIU", "Lock Haven", "Longwood", "Louisville", "Maine",
+    "Maryland", "Massachusetts", "Mercyhurst", "Merrimack", "Miami (OH)",
     "Michigan", "Michigan State", "Monmouth", "New Hampshire", "New Haven",
     "North Carolina", "Northeastern", "Northwestern", "Ohio", "Ohio State",
-    "Old Dominion", "Penn", "Penn State", "Princeton", "Providence", "Queens (NC)",
-    "Quinnipiac", "Richmond", "Rider", "Rutgers", "Sacred Heart", "Saint Louis",
-    "St. Joseph's", "Stanford", "Stonehill", "Syracuse", "Temple", "Towson",
-    "UAlbany", "UC Davis", "UConn", "UMass Lowell", "VCU", "Vermont", "Villanova",
+    "Old Dominion", "Penn", "Penn State", "Princeton", "Providence",
+    "Queens (NC)", "Quinnipiac", "Richmond", "Rider", "Rutgers",
+    "Sacred Heart", "Saint Francis", "Saint Louis", "St. Joseph's",
+    "Stanford", "Stonehill", "Syracuse", "Temple", "Towson", "UAlbany",
+    "UC Davis", "UConn", "UMass Lowell", "VCU", "Vermont", "Villanova",
     "Virginia", "Wagner", "Wake Forest", "William & Mary", "Yale",
-], key=len, reverse=True)
+]), key=len, reverse=True)
 
 TEAM_PATTERN = "|".join(re.escape(t) for t in TEAMS)
 
@@ -70,24 +79,39 @@ DATE_RE = re.compile(
     r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}"
 )
 
+# Body is everything between a date (with optional time suffix) and the next
+# "Report / Box Score / Box Score Recap" marker. We deliberately do NOT
+# require the literal word "Final" here: postseason rows show a round label
+# instead (e.g. "NCAA — Championship", "ACC — Semifinal") in that same slot.
+# Non-greedy matching means we still stop at the right terminator regardless
+# of what that in-between label text says. Games with no score yet (future
+# fixtures) or a "Canceled" status naturally fail the two-team-score check
+# below and get skipped, so no separate keyword filtering is needed.
 GAME_CHUNK_RE = re.compile(
     r"(?P<date>(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2})"
-    r"(?:\s*·[^F]*?)?"  # optional time suffix before 'Final'
-    r"\s+Final\s+(?P<body>.*?)(?=Report\s+Box Score|Box Score Recap|Box Score(?!\s*Recap)|$)",
+    r"\s+(?P<body>.*?)(?=Report\s+Box Score|Box Score Recap|Box Score(?!\s*Recap)|$)",
     re.DOTALL,
 )
 
 
 def parse_games(raw_text: str) -> list[Game]:
     games: list[Game] = []
+    seen: set[tuple] = set()
     for chunk_match in GAME_CHUNK_RE.finditer(raw_text):
         date = chunk_match.group("date")
         body = chunk_match.group("body")
         team_matches = list(TEAM_SCORE_RE.finditer(body))
         if len(team_matches) != 2:
-            # Unparseable or non-standard row (e.g. postponed, TBD) — skip.
+            # Unparseable or non-standard row (e.g. postponed, TBD, canceled,
+            # or a future fixture with no score yet) — skip.
             continue
         a, b = team_matches
+        key = (date, a.group("team"), a.group("score"), b.group("team"), b.group("score"))
+        if key in seen:
+            # The site occasionally renders the same game twice (observed in
+            # some postseason rounds) -- keep only the first occurrence.
+            continue
+        seen.add(key)
         games.append(Game(
             date=date,
             team_a=a.group("team"),
