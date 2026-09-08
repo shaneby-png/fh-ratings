@@ -94,6 +94,11 @@
 
   thead th:hover { background: rgba(31, 61, 46, 0.05); }
 
+  thead th.unsortable {
+    cursor: default;
+  }
+  thead th.unsortable:hover { background: none; }
+
   thead th .arrow {
     display: inline-block;
     margin-left: 4px;
@@ -170,11 +175,11 @@
 
 <script>
   let rows = [];
-  let sortKey = 'rank';
+  let sortKey = 'acr';
   let sortDir = -1;
 
   const columns = [
-    { key: 'rank', label: 'Rank', num: true },
+    { key: 'rank', label: 'Rank', num: true, sortable: false },
     { key: 'team', label: 'Team' },
     { key: 'record', label: 'Record' },
     { key: 'acr', label: 'ACR', num: true },
@@ -182,21 +187,13 @@
     { key: 'sos', label: 'SOS', num: true },
   ];
 
-  // "Rank" isn't a field pulled from the data -- clicking it (or loading the
-  // page) sorts by ACR, the site's primary metric, and every other column's
-  // rank position is just its row index in whatever order is currently shown.
-  function sortField(key) {
-    return key === 'rank' ? 'acr' : key;
-  }
-
   function fmt(v) {
     return typeof v === 'number' ? v.toFixed(3) : v;
   }
 
   function render() {
-    const field = sortField(sortKey);
     const sorted = [...rows].sort((a, b) => {
-      let av = a[field], bv = b[field];
+      let av = a[sortKey], bv = b[sortKey];
       if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
       if (av < bv) return -1 * sortDir;
       if (av > bv) return 1 * sortDir;
@@ -204,6 +201,9 @@
     });
 
     const thead = columns.map(c => {
+      if (c.sortable === false) {
+        return `<th class="${c.num ? 'num' : ''} unsortable">${c.label}</th>`;
+      }
       const active = c.key === sortKey;
       const arrow = active ? (sortDir === 1 ? '▲' : '▼') : '▲';
       return `<th class="${c.num ? 'num' : ''} ${active ? 'active' : ''}" data-key="${c.key}">${c.label}<span class="arrow">${arrow}</span></th>`;
@@ -225,7 +225,7 @@
         <tbody>${tbody}</tbody>
       </table>`;
 
-    document.querySelectorAll('thead th').forEach(th => {
+    document.querySelectorAll('thead th[data-key]').forEach(th => {
       th.addEventListener('click', () => {
         const key = th.dataset.key;
         if (sortKey === key) { sortDir *= -1; }
