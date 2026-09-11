@@ -1224,7 +1224,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 23",
-        "time": "3:00 pm (EST)",
+        "time": null,
         "opponent": "UMass Lowell"
       },
       {
@@ -2610,7 +2610,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 25",
-        "time": "1:00 pm (EST)",
+        "time": "12:00 pm (EST)",
         "opponent": "Wake Forest"
       },
       {
@@ -2698,6 +2698,12 @@
         "date": "Sun, \n                Oct 4",
         "time": "12:00 pm (EST)",
         "opponent": "Princeton"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 9",
+        "time": "3:00 pm (EST)",
+        "opponent": "UConn"
       },
       {
         "status": "upcoming",
@@ -2910,7 +2916,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 2",
-        "time": "3:00 pm (EST)",
+        "time": null,
         "opponent": "UMass Lowell"
       },
       {
@@ -3340,9 +3346,21 @@
       },
       {
         "status": "upcoming",
+        "date": "Fri, \n                Sep 18",
+        "time": "4:00 pm (EST)",
+        "opponent": "UMass Lowell"
+      },
+      {
+        "status": "upcoming",
         "date": "Fri, \n                Sep 25",
         "time": "4:00 pm (EST)",
         "opponent": "Virginia"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 27",
+        "time": "12:00 pm (EST)",
+        "opponent": "Wake Forest"
       },
       {
         "status": "upcoming",
@@ -3371,13 +3389,13 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 23",
-        "time": "5/2:00 pm (PST)",
+        "time": "5:00 pm (EST)",
         "opponent": "Stanford"
       },
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 25",
-        "time": "12/9:00 am (PST)",
+        "time": "12:00 pm (EST)",
         "opponent": "California"
       },
       {
@@ -4453,7 +4471,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "UMass Lowell"
       },
       {
@@ -5448,220 +5466,6 @@
         "opponent": "Indiana"
       }
     ],
-    "Mercyhurst": [
-      {
-        "status": "final",
-        "date": "Fri, \n                Aug 28",
-        "opponent": "Lock Haven",
-        "team_score": 2,
-        "opp_score": 5,
-        "result": "L",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Sep 6",
-        "opponent": "Saint Louis",
-        "team_score": 1,
-        "opp_score": 4,
-        "result": "L",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Tue, \n                Sep 8",
-        "opponent": "Saint Francis",
-        "team_score": 2,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 11",
-        "time": "1:00 pm (EST)",
-        "opponent": "Central Michigan"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sat, \n                Sep 12",
-        "time": "1:00 pm (EST)",
-        "opponent": "Saint Louis"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 18",
-        "time": "2:00 pm (EST)",
-        "opponent": "Wagner"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 25",
-        "time": "7:00 pm (EST)",
-        "opponent": "Merrimack"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Sep 27",
-        "time": "1:00 pm (EST)",
-        "opponent": "Stonehill"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 2",
-        "time": "2:00 pm (EST)",
-        "opponent": "LIU"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 4",
-        "time": "2:00 pm (EST)",
-        "opponent": "Ohio"
-      },
-      {
-        "status": "upcoming",
-        "date": "Tue, \n                Oct 6",
-        "time": "7:00 pm (EST)",
-        "opponent": "Saint Francis"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 9",
-        "time": "7:00 pm (EST)",
-        "opponent": "Rider"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 16",
-        "time": "2:00 pm (EST)",
-        "opponent": "Quinnipiac"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 18",
-        "time": "11:00 am (EST)",
-        "opponent": "New Haven"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 23",
-        "time": "5:00 pm (EST)",
-        "opponent": "Davidson"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 30",
-        "time": "12:00 pm (EST)",
-        "opponent": "Sacred Heart"
-      }
-    ],
-    "Lock Haven": [
-      {
-        "status": "final",
-        "date": "Fri, \n                Aug 28",
-        "opponent": "Mercyhurst",
-        "team_score": 5,
-        "opp_score": 2,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Aug 30",
-        "opponent": "Penn State",
-        "team_score": 0,
-        "opp_score": 8,
-        "result": "L",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Sep 6",
-        "opponent": "Georgetown",
-        "team_score": 0,
-        "opp_score": 6,
-        "result": "L",
-        "ot": null
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 11",
-        "time": "3:00 pm (EST)",
-        "opponent": "Colgate"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Sep 20",
-        "time": "12:00 pm (EST)",
-        "opponent": "American"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 25",
-        "time": "4:00 pm (EST)",
-        "opponent": "La Salle"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 2",
-        "time": "12:3/11:30 am (CST)",
-        "opponent": "Saint Louis"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 4",
-        "time": "12:00 pm (EST)",
-        "opponent": "Rider"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 9",
-        "time": "3:00 pm (EST)",
-        "opponent": "VCU"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 16",
-        "time": "3:00 pm (EST)",
-        "opponent": "St. Joseph's"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 18",
-        "time": "12:00 pm (EST)",
-        "opponent": "Drexel"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 23",
-        "time": "3:00 pm (EST)",
-        "opponent": "Richmond"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 25",
-        "time": "12:00 pm (EST)",
-        "opponent": "Merrimack"
-      },
-      {
-        "status": "upcoming",
-        "date": "Tue, \n                Oct 27",
-        "time": "6:00 pm (EST)",
-        "opponent": "Bucknell"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 30",
-        "time": "7:00 pm (EST)",
-        "opponent": "Davidson"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Nov 1",
-        "time": "12:00 pm (EST)",
-        "opponent": "Queens (NC)"
-      }
-    ],
     "Lehigh": [
       {
         "status": "final",
@@ -5880,6 +5684,235 @@
         "date": "Fri, \n                Oct 30",
         "time": "5:00 pm (EST)",
         "opponent": "Merrimack"
+      }
+    ],
+    "Wake Forest": [
+      {
+        "status": "final",
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Iowa",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Michigan",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Ohio",
+        "team_score": 6,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 11",
+        "time": "5:00 pm (EST)",
+        "opponent": "VCU"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 13",
+        "time": "12:00 pm (EST)",
+        "opponent": "Appalachian State"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 18",
+        "time": "4:00 pm (EST)",
+        "opponent": "Delaware"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 20",
+        "time": "12:00 pm (EST)",
+        "opponent": "Maryland"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 25",
+        "time": "5:00 pm (EST)",
+        "opponent": "Duke"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 27",
+        "time": "12:00 pm (EST)",
+        "opponent": "Syracuse"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 2",
+        "time": "5:00 pm (EST)",
+        "opponent": "Boston College"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 4",
+        "time": "12:00 pm (EST)",
+        "opponent": "Harvard"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 9",
+        "time": "9/6:00 pm (PST)",
+        "opponent": "California"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 11",
+        "time": "3/12:00 pm (PST)",
+        "opponent": "Stanford"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 16",
+        "time": "6:00 pm (EST)",
+        "opponent": "Virginia"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 18",
+        "time": "12:00 pm (EST)",
+        "opponent": "Davidson"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 23",
+        "time": "6:00 pm (EST)",
+        "opponent": "North Carolina"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 25",
+        "time": "12:00 pm (EST)",
+        "opponent": "James Madison"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 30",
+        "time": "5:00 pm (EST)",
+        "opponent": "Louisville"
+      }
+    ],
+    "Iowa": [
+      {
+        "status": "final",
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Wake Forest",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Aug 30",
+        "opponent": "North Carolina",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Fri, \n                Sep 4",
+        "opponent": "Lehigh",
+        "team_score": 9,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Ball State",
+        "team_score": 8,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 11",
+        "time": "12:00 pm (EST)",
+        "opponent": "Miami (OH)"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 13",
+        "time": "12:00 pm (EST)",
+        "opponent": "Louisville"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 18",
+        "time": "6/5:00 pm (CST)",
+        "opponent": "Indiana"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 20",
+        "time": "1/12:00 pm (CST)",
+        "opponent": "Indiana"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 25",
+        "time": "6/5:00 pm (CST)",
+        "opponent": "Ohio State"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 27",
+        "time": "1/12:00 pm (CST)",
+        "opponent": "Ohio State"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 2",
+        "time": "5:00 pm (EST)",
+        "opponent": "Michigan"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 4",
+        "time": "12:00 pm (EST)",
+        "opponent": "Michigan State"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 9",
+        "time": "4/3:00 pm (CST)",
+        "opponent": "Northwestern"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 23",
+        "time": "4/3:00 pm (CST)",
+        "opponent": "Rutgers"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 25",
+        "time": "1/12:00 pm (CST)",
+        "opponent": "Penn State"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 30",
+        "time": "1:00 pm (EST)",
+        "opponent": "Maryland"
       }
     ],
     "Appalachian State": [
@@ -6288,7 +6321,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Sep 20",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "UMass Lowell"
       },
       {
@@ -6714,7 +6747,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 25",
-        "time": "12/9:00 am (PST)",
+        "time": "12:00 pm (EST)",
         "opponent": "Syracuse"
       },
       {
@@ -6838,6 +6871,238 @@
         "date": "Sat, \n                Oct 31",
         "time": "12:00 pm (EST)",
         "opponent": "Lehigh"
+      }
+    ],
+    "Lock Haven": [
+      {
+        "status": "final",
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Mercyhurst",
+        "team_score": 5,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Aug 30",
+        "opponent": "Penn State",
+        "team_score": 0,
+        "opp_score": 8,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Georgetown",
+        "team_score": 0,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 11",
+        "time": "3:00 pm (EST)",
+        "opponent": "Colgate"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 18",
+        "time": "5:00 pm (EST)",
+        "opponent": "Saint Francis"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 20",
+        "time": "12:00 pm (EST)",
+        "opponent": "American"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 25",
+        "time": "4:00 pm (EST)",
+        "opponent": "La Salle"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 27",
+        "time": "2:00 pm (EST)",
+        "opponent": "Lock Haven"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 27",
+        "time": "2:00 pm (EST)",
+        "opponent": "Lock Haven"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 2",
+        "time": "12:30 pm (EST)",
+        "opponent": "Saint Louis"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 4",
+        "time": "12:00 pm (EST)",
+        "opponent": "Rider"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 9",
+        "time": "3:00 pm (EST)",
+        "opponent": "VCU"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 16",
+        "time": "3:00 pm (EST)",
+        "opponent": "St. Joseph's"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 18",
+        "time": "12:00 pm (EST)",
+        "opponent": "Drexel"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 23",
+        "time": "3:00 pm (EST)",
+        "opponent": "Richmond"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 25",
+        "time": "12:00 pm (EST)",
+        "opponent": "Merrimack"
+      },
+      {
+        "status": "upcoming",
+        "date": "Tue, \n                Oct 27",
+        "time": "6:00 pm (EST)",
+        "opponent": "Bucknell"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 30",
+        "time": "7:00 pm (EST)",
+        "opponent": "Davidson"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Nov 1",
+        "time": "12:00 pm (EST)",
+        "opponent": "Queens (NC)"
+      }
+    ],
+    "Mercyhurst": [
+      {
+        "status": "final",
+        "date": "Fri, \n                Aug 28",
+        "opponent": "Lock Haven",
+        "team_score": 2,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Sep 6",
+        "opponent": "Saint Louis",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Tue, \n                Sep 8",
+        "opponent": "Saint Francis",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 11",
+        "time": "1:00 pm (EST)",
+        "opponent": "Central Michigan"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sat, \n                Sep 12",
+        "time": "1:00 pm (EST)",
+        "opponent": "Saint Louis"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 18",
+        "time": "2:00 pm (EST)",
+        "opponent": "Wagner"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 25",
+        "time": "7:00 pm (EST)",
+        "opponent": "Merrimack"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Sep 27",
+        "time": "1:00 pm (EST)",
+        "opponent": "Stonehill"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 2",
+        "time": "2:00 pm (EST)",
+        "opponent": "LIU"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 4",
+        "time": "2:00 pm (EST)",
+        "opponent": "Ohio"
+      },
+      {
+        "status": "upcoming",
+        "date": "Tue, \n                Oct 6",
+        "time": "7:00 pm (EST)",
+        "opponent": "Saint Francis"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 9",
+        "time": "7:00 pm (EST)",
+        "opponent": "Rider"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 16",
+        "time": "2:00 pm (EST)",
+        "opponent": "Quinnipiac"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 18",
+        "time": "11:00 am (EST)",
+        "opponent": "New Haven"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 23",
+        "time": "5:00 pm (EST)",
+        "opponent": "Davidson"
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 30",
+        "time": "12:00 pm (EST)",
+        "opponent": "Sacred Heart"
       }
     ],
     "Colgate": [
@@ -6987,7 +7252,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Sep 11",
-        "time": "6:00 pm (EST)",
+        "time": null,
         "opponent": "UMass Lowell"
       },
       {
@@ -7756,229 +8021,6 @@
         "opponent": "Richmond"
       }
     ],
-    "Iowa": [
-      {
-        "status": "final",
-        "date": "Fri, \n                Aug 28",
-        "opponent": "Wake Forest",
-        "team_score": 4,
-        "opp_score": 3,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Aug 30",
-        "opponent": "North Carolina",
-        "team_score": 3,
-        "opp_score": 2,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Fri, \n                Sep 4",
-        "opponent": "Lehigh",
-        "team_score": 9,
-        "opp_score": 0,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Sep 6",
-        "opponent": "Ball State",
-        "team_score": 8,
-        "opp_score": 0,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 11",
-        "time": "12:00 pm (EST)",
-        "opponent": "Miami (OH)"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Louisville"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 18",
-        "time": "6/5:00 pm (CST)",
-        "opponent": "Indiana"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Sep 20",
-        "time": "1/12:00 pm (CST)",
-        "opponent": "Indiana"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 25",
-        "time": "6/5:00 pm (CST)",
-        "opponent": "Ohio State"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Sep 27",
-        "time": "1/12:00 pm (CST)",
-        "opponent": "Ohio State"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 2",
-        "time": "5:00 pm (EST)",
-        "opponent": "Michigan"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 4",
-        "time": "12:00 pm (EST)",
-        "opponent": "Michigan State"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 9",
-        "time": "4/3:00 pm (CST)",
-        "opponent": "Northwestern"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 23",
-        "time": "4/3:00 pm (CST)",
-        "opponent": "Rutgers"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 25",
-        "time": "1/12:00 pm (CST)",
-        "opponent": "Penn State"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 30",
-        "time": "1:00 pm (EST)",
-        "opponent": "Maryland"
-      }
-    ],
-    "Wake Forest": [
-      {
-        "status": "final",
-        "date": "Fri, \n                Aug 28",
-        "opponent": "Iowa",
-        "team_score": 3,
-        "opp_score": 4,
-        "result": "L",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Aug 30",
-        "opponent": "Michigan",
-        "team_score": 2,
-        "opp_score": 0,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Sep 6",
-        "opponent": "Ohio",
-        "team_score": 6,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 11",
-        "time": "5:00 pm (EST)",
-        "opponent": "VCU"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Appalachian State"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 18",
-        "time": "4:00 pm (EST)",
-        "opponent": "Delaware"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Sep 20",
-        "time": "12:00 pm (EST)",
-        "opponent": "Maryland"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Sep 25",
-        "time": "5:00 pm (EST)",
-        "opponent": "Duke"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 2",
-        "time": "5:00 pm (EST)",
-        "opponent": "Boston College"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 4",
-        "time": "12:00 pm (EST)",
-        "opponent": "Harvard"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 9",
-        "time": "9/6:00 pm (PST)",
-        "opponent": "California"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 11",
-        "time": "3/12:00 pm (PST)",
-        "opponent": "Stanford"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 16",
-        "time": "6:00 pm (EST)",
-        "opponent": "Virginia"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 18",
-        "time": "12:00 pm (EST)",
-        "opponent": "Davidson"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 23",
-        "time": "6:00 pm (EST)",
-        "opponent": "North Carolina"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 25",
-        "time": "1:00 pm (EST)",
-        "opponent": "James Madison"
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 30",
-        "time": "5:00 pm (EST)",
-        "opponent": "Louisville"
-      }
-    ],
     "Stanford": [
       {
         "status": "final",
@@ -8079,7 +8121,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 23",
-        "time": "5/2:00 pm (PST)",
+        "time": "5:00 pm (EST)",
         "opponent": "Syracuse"
       },
       {
@@ -8135,31 +8177,37 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Sep 11",
-        "time": "6:00 pm (EST)",
+        "time": null,
         "opponent": "New Haven"
       },
       {
         "status": "upcoming",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "Merrimack"
       },
       {
         "status": "upcoming",
+        "date": "Fri, \n                Sep 18",
+        "time": "4:00 pm (EST)",
+        "opponent": "Syracuse"
+      },
+      {
+        "status": "upcoming",
         "date": "Sun, \n                Sep 20",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "Stonehill"
       },
       {
         "status": "upcoming",
         "date": "Sun, \n                Sep 27",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "Brown"
       },
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 2",
-        "time": "3:00 pm (EST)",
+        "time": null,
         "opponent": "Bryant"
       },
       {
@@ -8177,7 +8225,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 11",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "Sacred Heart"
       },
       {
@@ -8189,13 +8237,13 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 18",
-        "time": "3:00 pm (EST)",
+        "time": null,
         "opponent": "Dartmouth"
       },
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 23",
-        "time": "3:00 pm (EST)",
+        "time": null,
         "opponent": "Maine"
       },
       {
@@ -8408,6 +8456,12 @@
       },
       {
         "status": "upcoming",
+        "date": "Fri, \n                Oct 9",
+        "time": "3:00 pm (EST)",
+        "opponent": "Temple"
+      },
+      {
+        "status": "upcoming",
         "date": "Fri, \n                Oct 16",
         "time": "1:00 pm (EST)",
         "opponent": "Georgetown"
@@ -8516,7 +8570,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 11",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "UMass Lowell"
       },
       {
@@ -8724,7 +8778,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 2",
-        "time": "12:3/11:30 am (CST)",
+        "time": "12:30 pm (EST)",
         "opponent": "Lock Haven"
       },
       {
@@ -9164,7 +9218,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Sep 27",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "UMass Lowell"
       },
       {
@@ -9922,7 +9976,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 18",
-        "time": "3:00 pm (EST)",
+        "time": null,
         "opponent": "UMass Lowell"
       },
       {
@@ -9953,6 +10007,12 @@
         "opp_score": 2,
         "result": "L",
         "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Sep 18",
+        "time": "5:00 pm (EST)",
+        "opponent": "Lock Haven"
       },
       {
         "status": "upcoming",
