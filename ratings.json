@@ -1,670 +1,670 @@
 {
   "division": 1,
   "year": 2026,
-  "games_counted": 184,
+  "games_counted": 219,
   "ratings": [
     {
       "rank": 1,
       "team": "Iowa",
-      "record": "5-0",
-      "acr": 1.8417,
-      "rpi": 0.7323,
-      "sos": 0.6333
+      "record": "6-0",
+      "acr": 1.811,
+      "rpi": 0.721,
+      "sos": 0.6083
     },
     {
       "rank": 2,
       "team": "Northwestern",
-      "record": "5-0",
-      "acr": 1.6349,
-      "rpi": 0.795,
-      "sos": 0.7833
+      "record": "6-0",
+      "acr": 1.7229,
+      "rpi": 0.7444,
+      "sos": 0.6667
     },
     {
       "rank": 3,
       "team": "Wake Forest",
-      "record": "3-1",
-      "acr": 1.5883,
-      "rpi": 0.7133,
-      "sos": 0.7708
+      "record": "4-1",
+      "acr": 1.5567,
+      "rpi": 0.6926,
+      "sos": 0.71
     },
     {
       "rank": 4,
-      "team": "Massachusetts",
-      "record": "5-0",
-      "acr": 1.5183,
-      "rpi": 0.7293,
-      "sos": 0.65
+      "team": "Princeton",
+      "record": "3-1",
+      "acr": 1.4596,
+      "rpi": 0.6713,
+      "sos": 0.6375
     },
     {
       "rank": 5,
       "team": "Maryland",
-      "record": "5-0",
-      "acr": 1.3916,
-      "rpi": 0.714,
-      "sos": 0.65
+      "record": "6-0",
+      "acr": 1.3934,
+      "rpi": 0.6696,
+      "sos": 0.5667
     },
     {
       "rank": 6,
-      "team": "Harvard",
-      "record": "2-1",
-      "acr": 1.3526,
-      "rpi": 0.7361,
-      "sos": 0.8333
+      "team": "Massachusetts",
+      "record": "6-0",
+      "acr": 1.3731,
+      "rpi": 0.6908,
+      "sos": 0.6083
     },
     {
       "rank": 7,
       "team": "California",
-      "record": "4-0",
-      "acr": 1.329,
-      "rpi": 0.725,
-      "sos": 0.6125
+      "record": "5-0",
+      "acr": 1.321,
+      "rpi": 0.72,
+      "sos": 0.6567
     },
     {
       "rank": 8,
-      "team": "Yale",
-      "record": "3-0",
+      "team": "Harvard",
+      "record": "3-1",
       "acr": 1.2647,
-      "rpi": 0.6465,
-      "sos": 0.4722
+      "rpi": 0.7119,
+      "sos": 0.75
     },
     {
       "rank": 9,
-      "team": "Louisville",
-      "record": "4-1",
-      "acr": 1.2632,
-      "rpi": 0.711,
-      "sos": 0.7333
+      "team": "Yale",
+      "record": "4-0",
+      "acr": 1.1716,
+      "rpi": 0.6604,
+      "sos": 0.5375
     },
     {
       "rank": 10,
-      "team": "Princeton",
-      "record": "2-1",
-      "acr": 1.2467,
-      "rpi": 0.6056,
-      "sos": 0.5833
+      "team": "Louisville",
+      "record": "4-2",
+      "acr": 1.1536,
+      "rpi": 0.6602,
+      "sos": 0.7167
     },
     {
       "rank": 11,
-      "team": "Miami (OH)",
-      "record": "2-2",
-      "acr": 1.1971,
-      "rpi": 0.6692,
-      "sos": 0.8125
+      "team": "Old Dominion",
+      "record": "4-1",
+      "acr": 1.1317,
+      "rpi": 0.6088,
+      "sos": 0.5133
     },
     {
       "rank": 12,
-      "team": "UConn",
-      "record": "3-1",
-      "acr": 1.1288,
-      "rpi": 0.6235,
-      "sos": 0.5833
+      "team": "North Carolina",
+      "record": "3-3",
+      "acr": 1.1207,
+      "rpi": 0.6415,
+      "sos": 0.7583
     },
     {
       "rank": 13,
       "team": "Michigan",
       "record": "3-2",
-      "acr": 1.0856,
-      "rpi": 0.615,
-      "sos": 0.6333
+      "acr": 1.1133,
+      "rpi": 0.6283,
+      "sos": 0.67
     },
     {
       "rank": 14,
-      "team": "Virginia",
-      "record": "3-1",
-      "acr": 1.0036,
-      "rpi": 0.676,
-      "sos": 0.6875
-    },
-    {
-      "rank": 15,
-      "team": "North Carolina",
+      "team": "Miami (OH)",
       "record": "2-3",
-      "acr": 0.9437,
-      "rpi": 0.6067,
-      "sos": 0.75
-    },
-    {
-      "rank": 16,
-      "team": "Old Dominion",
-      "record": "4-1",
-      "acr": 0.9379,
-      "rpi": 0.5671,
-      "sos": 0.45
-    },
-    {
-      "rank": 17,
-      "team": "Duke",
-      "record": "3-2",
-      "acr": 0.8845,
-      "rpi": 0.611,
-      "sos": 0.6667
-    },
-    {
-      "rank": 18,
-      "team": "Stanford",
-      "record": "5-0",
-      "acr": 0.804,
-      "rpi": 0.5887,
-      "sos": 0.39
-    },
-    {
-      "rank": 19,
-      "team": "Liberty",
-      "record": "3-2",
-      "acr": 0.7688,
-      "rpi": 0.5579,
-      "sos": 0.5333
-    },
-    {
-      "rank": 20,
-      "team": "Penn State",
-      "record": "3-1",
-      "acr": 0.7602,
-      "rpi": 0.6549,
-      "sos": 0.6667
-    },
-    {
-      "rank": 21,
-      "team": "Bucknell",
-      "record": "4-0",
-      "acr": 0.7193,
-      "rpi": 0.6031,
-      "sos": 0.375
-    },
-    {
-      "rank": 22,
-      "team": "Indiana",
-      "record": "3-2",
-      "acr": 0.6639,
-      "rpi": 0.4956,
-      "sos": 0.39
-    },
-    {
-      "rank": 23,
-      "team": "Syracuse",
-      "record": "3-1",
-      "acr": 0.5827,
-      "rpi": 0.5828,
-      "sos": 0.5
-    },
-    {
-      "rank": 24,
-      "team": "Boston College",
-      "record": "2-3",
-      "acr": 0.5825,
-      "rpi": 0.6377,
+      "acr": 1.0803,
+      "rpi": 0.6407,
       "sos": 0.8
     },
     {
-      "rank": 25,
-      "team": "Ohio State",
+      "rank": 15,
+      "team": "Virginia",
+      "record": "4-1",
+      "acr": 1.0514,
+      "rpi": 0.603,
+      "sos": 0.51
+    },
+    {
+      "rank": 16,
+      "team": "UConn",
+      "record": "4-1",
+      "acr": 1.0462,
+      "rpi": 0.5929,
+      "sos": 0.4767
+    },
+    {
+      "rank": 17,
+      "team": "Syracuse",
+      "record": "4-1",
+      "acr": 1.0054,
+      "rpi": 0.6494,
+      "sos": 0.6
+    },
+    {
+      "rank": 18,
+      "team": "Duke",
+      "record": "4-2",
+      "acr": 1.0039,
+      "rpi": 0.5906,
+      "sos": 0.5917
+    },
+    {
+      "rank": 19,
+      "team": "Stanford",
+      "record": "6-0",
+      "acr": 0.9115,
+      "rpi": 0.6073,
+      "sos": 0.4306
+    },
+    {
+      "rank": 20,
+      "team": "Indiana",
+      "record": "4-2",
+      "acr": 0.796,
+      "rpi": 0.5051,
+      "sos": 0.3639
+    },
+    {
+      "rank": 21,
+      "team": "Penn State",
       "record": "3-2",
-      "acr": 0.5692,
-      "rpi": 0.5746,
-      "sos": 0.55
+      "acr": 0.7785,
+      "rpi": 0.6326,
+      "sos": 0.7167
+    },
+    {
+      "rank": 22,
+      "team": "Ohio State",
+      "record": "4-2",
+      "acr": 0.7655,
+      "rpi": 0.5809,
+      "sos": 0.5417
+    },
+    {
+      "rank": 23,
+      "team": "Lafayette",
+      "record": "5-1",
+      "acr": 0.6491,
+      "rpi": 0.5556,
+      "sos": 0.4417
+    },
+    {
+      "rank": 24,
+      "team": "Fairfield",
+      "record": "3-2",
+      "acr": 0.6183,
+      "rpi": 0.6002,
+      "sos": 0.6433
+    },
+    {
+      "rank": 25,
+      "team": "Liberty",
+      "record": "4-2",
+      "acr": 0.6033,
+      "rpi": 0.525,
+      "sos": 0.4583
     },
     {
       "rank": 26,
-      "team": "Richmond",
-      "record": "4-1",
-      "acr": 0.54,
-      "rpi": 0.5195,
-      "sos": 0.35
+      "team": "Boston College",
+      "record": "2-4",
+      "acr": 0.5583,
+      "rpi": 0.6201,
+      "sos": 0.7944
     },
     {
       "rank": 27,
       "team": "Monmouth",
-      "record": "3-1",
-      "acr": 0.5217,
-      "rpi": 0.4549,
+      "record": "4-1",
+      "acr": 0.5544,
+      "rpi": 0.4546,
       "sos": 0.25
     },
     {
       "rank": 28,
-      "team": "Vermont",
-      "record": "4-1",
-      "acr": 0.5137,
-      "rpi": 0.4831,
-      "sos": 0.2667
+      "team": "Richmond",
+      "record": "4-2",
+      "acr": 0.5444,
+      "rpi": 0.5016,
+      "sos": 0.4
     },
     {
       "rank": 29,
-      "team": "Lafayette",
+      "team": "Vermont",
       "record": "4-1",
-      "acr": 0.4512,
-      "rpi": 0.5281,
-      "sos": 0.3667
+      "acr": 0.5228,
+      "rpi": 0.4726,
+      "sos": 0.25
     },
     {
       "rank": 30,
-      "team": "Columbia",
-      "record": "2-1",
-      "acr": 0.4365,
-      "rpi": 0.6544,
-      "sos": 0.75
+      "team": "American",
+      "record": "3-3",
+      "acr": 0.4577,
+      "rpi": 0.5807,
+      "sos": 0.675
     },
     {
       "rank": 31,
-      "team": "Brown",
-      "record": "2-1",
-      "acr": 0.4239,
-      "rpi": 0.6083,
-      "sos": 0.5556
+      "team": "Columbia",
+      "record": "3-1",
+      "acr": 0.4437,
+      "rpi": 0.589,
+      "sos": 0.5375
     },
     {
       "rank": 32,
-      "team": "Drexel",
-      "record": "4-1",
-      "acr": 0.4111,
-      "rpi": 0.4771,
-      "sos": 0.3
+      "team": "Rutgers",
+      "record": "2-4",
+      "acr": 0.3744,
+      "rpi": 0.5316,
+      "sos": 0.6528
     },
     {
       "rank": 33,
-      "team": "Fairfield",
-      "record": "2-2",
-      "acr": 0.3426,
-      "rpi": 0.5373,
-      "sos": 0.6042
+      "team": "Bucknell",
+      "record": "4-1",
+      "acr": 0.2984,
+      "rpi": 0.5758,
+      "sos": 0.45
     },
     {
       "rank": 34,
-      "team": "American",
-      "record": "2-3",
-      "acr": 0.3329,
-      "rpi": 0.6105,
-      "sos": 0.8167
+      "team": "Villanova",
+      "record": "5-1",
+      "acr": 0.275,
+      "rpi": 0.4769,
+      "sos": 0.2833
     },
     {
       "rank": 35,
-      "team": "Providence",
-      "record": "4-1",
-      "acr": 0.3113,
-      "rpi": 0.5058,
-      "sos": 0.3
+      "team": "Appalachian State",
+      "record": "4-2",
+      "acr": 0.2304,
+      "rpi": 0.5473,
+      "sos": 0.5028
     },
     {
       "rank": 36,
-      "team": "Appalachian State",
-      "record": "4-1",
-      "acr": 0.2727,
-      "rpi": 0.5479,
-      "sos": 0.42
+      "team": "Drexel",
+      "record": "4-2",
+      "acr": 0.2267,
+      "rpi": 0.4803,
+      "sos": 0.3667
     },
     {
       "rank": 37,
-      "team": "VCU",
-      "record": "2-2",
-      "acr": 0.2662,
-      "rpi": 0.5245,
-      "sos": 0.5
+      "team": "Delaware",
+      "record": "2-3",
+      "acr": 0.1971,
+      "rpi": 0.5042,
+      "sos": 0.58
     },
     {
       "rank": 38,
-      "team": "Rutgers",
-      "record": "2-3",
-      "acr": 0.2568,
-      "rpi": 0.5052,
-      "sos": 0.5667
+      "team": "UAlbany",
+      "record": "3-2",
+      "acr": 0.1877,
+      "rpi": 0.5585,
+      "sos": 0.5633
     },
     {
       "rank": 39,
       "team": "Michigan State",
-      "record": "3-2",
-      "acr": 0.2474,
-      "rpi": 0.5271,
-      "sos": 0.45
-    },
-    {
-      "rank": 40,
-      "team": "Ball State",
-      "record": "2-2",
-      "acr": 0.2373,
-      "rpi": 0.5526,
-      "sos": 0.5833
-    },
-    {
-      "rank": 41,
-      "team": "Villanova",
-      "record": "4-1",
-      "acr": 0.2144,
-      "rpi": 0.4644,
-      "sos": 0.25
-    },
-    {
-      "rank": 42,
-      "team": "UMass Lowell",
-      "record": "2-3",
-      "acr": 0.1951,
-      "rpi": 0.5313,
-      "sos": 0.6
-    },
-    {
-      "rank": 43,
-      "team": "UAlbany",
-      "record": "3-2",
-      "acr": 0.194,
-      "rpi": 0.5553,
-      "sos": 0.55
-    },
-    {
-      "rank": 44,
-      "team": "Delaware",
-      "record": "1-3",
-      "acr": 0.1016,
-      "rpi": 0.5344,
-      "sos": 0.7292
-    },
-    {
-      "rank": 45,
-      "team": "St. Joseph's",
-      "record": "2-3",
-      "acr": -0.0025,
-      "rpi": 0.4692,
-      "sos": 0.5167
-    },
-    {
-      "rank": 46,
-      "team": "Temple",
-      "record": "2-3",
-      "acr": -0.1158,
-      "rpi": 0.4508,
-      "sos": 0.4833
-    },
-    {
-      "rank": 47,
-      "team": "Cornell",
-      "record": "1-3",
-      "acr": -0.2299,
-      "rpi": 0.434,
-      "sos": 0.5625
-    },
-    {
-      "rank": 48,
-      "team": "Ohio",
-      "record": "2-2",
-      "acr": -0.2368,
-      "rpi": 0.5013,
-      "sos": 0.4792
-    },
-    {
-      "rank": 49,
-      "team": "Boston University",
-      "record": "2-3",
-      "acr": -0.2415,
-      "rpi": 0.5222,
-      "sos": 0.65
-    },
-    {
-      "rank": 50,
-      "team": "Quinnipiac",
-      "record": "2-3",
-      "acr": -0.2521,
-      "rpi": 0.5526,
-      "sos": 0.7333
-    },
-    {
-      "rank": 51,
-      "team": "Penn",
-      "record": "1-2",
-      "acr": -0.336,
-      "rpi": 0.376,
-      "sos": 0.3333
-    },
-    {
-      "rank": 52,
-      "team": "Maine",
-      "record": "2-3",
-      "acr": -0.3689,
-      "rpi": 0.4694,
-      "sos": 0.47
-    },
-    {
-      "rank": 53,
-      "team": "Georgetown",
-      "record": "2-3",
-      "acr": -0.369,
-      "rpi": 0.5052,
-      "sos": 0.6033
-    },
-    {
-      "rank": 54,
-      "team": "Sacred Heart",
-      "record": "0-4",
-      "acr": -0.3895,
-      "rpi": 0.4936,
-      "sos": 0.7708
-    },
-    {
-      "rank": 55,
-      "team": "Davidson",
       "record": "3-3",
-      "acr": -0.4289,
-      "rpi": 0.3843,
-      "sos": 0.2917
-    },
-    {
-      "rank": 56,
-      "team": "Lehigh",
-      "record": "1-3",
-      "acr": -0.4501,
-      "rpi": 0.3974,
-      "sos": 0.3958
-    },
-    {
-      "rank": 57,
-      "team": "New Hampshire",
-      "record": "1-3",
-      "acr": -0.4625,
-      "rpi": 0.389,
-      "sos": 0.4042
-    },
-    {
-      "rank": 58,
-      "team": "UC Davis",
-      "record": "2-3",
-      "acr": -0.4639,
-      "rpi": 0.349,
-      "sos": 0.19
-    },
-    {
-      "rank": 59,
-      "team": "James Madison",
-      "record": "0-4",
-      "acr": -0.4872,
-      "rpi": 0.374,
-      "sos": 0.5
-    },
-    {
-      "rank": 60,
-      "team": "Towson",
-      "record": "2-3",
-      "acr": -0.4962,
-      "rpi": 0.4882,
-      "sos": 0.53
-    },
-    {
-      "rank": 61,
-      "team": "Northeastern",
-      "record": "1-3",
-      "acr": -0.4971,
-      "rpi": 0.4452,
-      "sos": 0.6042
-    },
-    {
-      "rank": 62,
-      "team": "Kent State",
-      "record": "0-5",
-      "acr": -0.5484,
-      "rpi": 0.3942,
-      "sos": 0.5667
-    },
-    {
-      "rank": 63,
-      "team": "Holy Cross",
-      "record": "3-2",
-      "acr": -0.5756,
-      "rpi": 0.4328,
-      "sos": 0.3333
-    },
-    {
-      "rank": 64,
-      "team": "Central Michigan",
-      "record": "1-5",
-      "acr": -0.6295,
-      "rpi": 0.3772,
-      "sos": 0.5
-    },
-    {
-      "rank": 65,
-      "team": "Bryant",
-      "record": "3-2",
-      "acr": -0.6364,
-      "rpi": 0.414,
-      "sos": 0.3333
-    },
-    {
-      "rank": 66,
-      "team": "Saint Louis",
-      "record": "2-3",
-      "acr": -0.6883,
-      "rpi": 0.4148,
-      "sos": 0.45
-    },
-    {
-      "rank": 67,
-      "team": "Colgate",
-      "record": "3-2",
-      "acr": -0.7093,
-      "rpi": 0.3535,
-      "sos": 0.1667
-    },
-    {
-      "rank": 68,
-      "team": "Bellarmine",
-      "record": "0-4",
-      "acr": -0.8021,
-      "rpi": 0.4113,
-      "sos": 0.625
-    },
-    {
-      "rank": 69,
-      "team": "William & Mary",
-      "record": "1-3",
-      "acr": -0.8378,
-      "rpi": 0.3398,
-      "sos": 0.2708
-    },
-    {
-      "rank": 70,
-      "team": "Hofstra",
-      "record": "2-2",
-      "acr": -0.8722,
-      "rpi": 0.3427,
-      "sos": 0.1875
-    },
-    {
-      "rank": 71,
-      "team": "Lock Haven",
-      "record": "2-2",
-      "acr": -0.9031,
-      "rpi": 0.4585,
-      "sos": 0.4792
-    },
-    {
-      "rank": 72,
-      "team": "Queens (NC)",
-      "record": "1-4",
-      "acr": -1.1293,
-      "rpi": 0.3977,
-      "sos": 0.5167
-    },
-    {
-      "rank": 73,
-      "team": "Wagner",
-      "record": "0-5",
-      "acr": -1.2409,
-      "rpi": 0.3127,
-      "sos": 0.4167
-    },
-    {
-      "rank": 74,
-      "team": "LIU",
-      "record": "0-4",
-      "acr": -1.2527,
-      "rpi": 0.3271,
+      "acr": 0.1677,
+      "rpi": 0.4984,
       "sos": 0.4583
     },
     {
+      "rank": 40,
+      "team": "VCU",
+      "record": "2-3",
+      "acr": 0.1398,
+      "rpi": 0.4995,
+      "sos": 0.52
+    },
+    {
+      "rank": 41,
+      "team": "Providence",
+      "record": "5-1",
+      "acr": 0.1264,
+      "rpi": 0.5056,
+      "sos": 0.325
+    },
+    {
+      "rank": 42,
+      "team": "Brown",
+      "record": "2-2",
+      "acr": 0.0891,
+      "rpi": 0.532,
+      "sos": 0.5375
+    },
+    {
+      "rank": 43,
+      "team": "UMass Lowell",
+      "record": "3-3",
+      "acr": 0.0346,
+      "rpi": 0.5111,
+      "sos": 0.5111
+    },
+    {
+      "rank": 44,
+      "team": "Temple",
+      "record": "3-3",
+      "acr": -0.022,
+      "rpi": 0.4534,
+      "sos": 0.425
+    },
+    {
+      "rank": 45,
+      "team": "Penn",
+      "record": "1-2",
+      "acr": -0.1095,
+      "rpi": 0.4476,
+      "sos": 0.4667
+    },
+    {
+      "rank": 46,
+      "team": "St. Joseph's",
+      "record": "2-4",
+      "acr": -0.1278,
+      "rpi": 0.4915,
+      "sos": 0.575
+    },
+    {
+      "rank": 47,
+      "team": "Ball State",
+      "record": "2-3",
+      "acr": -0.1473,
+      "rpi": 0.5116,
+      "sos": 0.57
+    },
+    {
+      "rank": 48,
+      "team": "Cornell",
+      "record": "1-4",
+      "acr": -0.1916,
+      "rpi": 0.4549,
+      "sos": 0.6
+    },
+    {
+      "rank": 49,
+      "team": "Maine",
+      "record": "3-3",
+      "acr": -0.2658,
+      "rpi": 0.496,
+      "sos": 0.4778
+    },
+    {
+      "rank": 50,
+      "team": "Davidson",
+      "record": "4-3",
+      "acr": -0.2801,
+      "rpi": 0.4236,
+      "sos": 0.3286
+    },
+    {
+      "rank": 51,
+      "team": "Northeastern",
+      "record": "1-4",
+      "acr": -0.2929,
+      "rpi": 0.5036,
+      "sos": 0.7
+    },
+    {
+      "rank": 52,
+      "team": "Georgetown",
+      "record": "3-3",
+      "acr": -0.3023,
+      "rpi": 0.48,
+      "sos": 0.4972
+    },
+    {
+      "rank": 53,
+      "team": "Holy Cross",
+      "record": "4-2",
+      "acr": -0.3028,
+      "rpi": 0.4845,
+      "sos": 0.3917
+    },
+    {
+      "rank": 54,
+      "team": "UC Davis",
+      "record": "2-4",
+      "acr": -0.3383,
+      "rpi": 0.4257,
+      "sos": 0.4
+    },
+    {
+      "rank": 55,
+      "team": "New Hampshire",
+      "record": "1-4",
+      "acr": -0.4058,
+      "rpi": 0.4642,
+      "sos": 0.5767
+    },
+    {
+      "rank": 56,
+      "team": "Quinnipiac",
+      "record": "2-3",
+      "acr": -0.436,
+      "rpi": 0.4876,
+      "sos": 0.5867
+    },
+    {
+      "rank": 57,
+      "team": "Boston University",
+      "record": "2-4",
+      "acr": -0.4853,
+      "rpi": 0.4334,
+      "sos": 0.5056
+    },
+    {
+      "rank": 58,
+      "team": "Central Michigan",
+      "record": "2-5",
+      "acr": -0.4999,
+      "rpi": 0.4205,
+      "sos": 0.4929
+    },
+    {
+      "rank": 59,
+      "team": "Ohio",
+      "record": "2-3",
+      "acr": -0.5145,
+      "rpi": 0.436,
+      "sos": 0.45
+    },
+    {
+      "rank": 60,
+      "team": "James Madison",
+      "record": "0-5",
+      "acr": -0.5279,
+      "rpi": 0.4126,
+      "sos": 0.59
+    },
+    {
+      "rank": 61,
+      "team": "Kent State",
+      "record": "0-6",
+      "acr": -0.5583,
+      "rpi": 0.3675,
+      "sos": 0.4917
+    },
+    {
+      "rank": 62,
+      "team": "Towson",
+      "record": "2-4",
+      "acr": -0.5785,
+      "rpi": 0.4689,
+      "sos": 0.5167
+    },
+    {
+      "rank": 63,
+      "team": "Lehigh",
+      "record": "1-4",
+      "acr": -0.6175,
+      "rpi": 0.402,
+      "sos": 0.45
+    },
+    {
+      "rank": 64,
+      "team": "Bellarmine",
+      "record": "0-4",
+      "acr": -0.6474,
+      "rpi": 0.4366,
+      "sos": 0.6375
+    },
+    {
+      "rank": 65,
+      "team": "Sacred Heart",
+      "record": "1-4",
+      "acr": -0.6477,
+      "rpi": 0.4775,
+      "sos": 0.66
+    },
+    {
+      "rank": 66,
+      "team": "Colgate",
+      "record": "3-2",
+      "acr": -0.6606,
+      "rpi": 0.3807,
+      "sos": 0.2167
+    },
+    {
+      "rank": 67,
+      "team": "Bryant",
+      "record": "3-3",
+      "acr": -0.7791,
+      "rpi": 0.4037,
+      "sos": 0.3583
+    },
+    {
+      "rank": 68,
+      "team": "William & Mary",
+      "record": "1-4",
+      "acr": -0.8428,
+      "rpi": 0.3462,
+      "sos": 0.33
+    },
+    {
+      "rank": 69,
+      "team": "Lock Haven",
+      "record": "2-2",
+      "acr": -0.8874,
+      "rpi": 0.4582,
+      "sos": 0.475
+    },
+    {
+      "rank": 70,
+      "team": "Saint Louis",
+      "record": "2-4",
+      "acr": -0.8959,
+      "rpi": 0.3535,
+      "sos": 0.3472
+    },
+    {
+      "rank": 71,
+      "team": "Hofstra",
+      "record": "2-3",
+      "acr": -0.9012,
+      "rpi": 0.3552,
+      "sos": 0.29
+    },
+    {
+      "rank": 72,
+      "team": "Wagner",
+      "record": "0-6",
+      "acr": -1.211,
+      "rpi": 0.3312,
+      "sos": 0.45
+    },
+    {
+      "rank": 73,
+      "team": "LIU",
+      "record": "0-5",
+      "acr": -1.2485,
+      "rpi": 0.364,
+      "sos": 0.5033
+    },
+    {
+      "rank": 74,
+      "team": "Queens (NC)",
+      "record": "1-5",
+      "acr": -1.3242,
+      "rpi": 0.324,
+      "sos": 0.375
+    },
+    {
       "rank": 75,
-      "team": "Dartmouth",
-      "record": "1-1",
-      "acr": -1.3436,
-      "rpi": 0.3078,
-      "sos": 0.125
+      "team": "La Salle",
+      "record": "1-4",
+      "acr": -1.3642,
+      "rpi": 0.2971,
+      "sos": 0.3
     },
     {
       "rank": 76,
       "team": "Rider",
-      "record": "0-5",
-      "acr": -1.3594,
-      "rpi": 0.325,
-      "sos": 0.5
+      "record": "0-6",
+      "acr": -1.3764,
+      "rpi": 0.3308,
+      "sos": 0.4833
     },
     {
       "rank": 77,
-      "team": "New Haven",
-      "record": "0-4",
-      "acr": -1.5989,
-      "rpi": 0.3635,
-      "sos": 0.5625
+      "team": "Dartmouth",
+      "record": "1-2",
+      "acr": -1.4246,
+      "rpi": 0.2405,
+      "sos": 0.0667
     },
     {
       "rank": 78,
-      "team": "La Salle",
+      "team": "Stonehill",
       "record": "0-4",
-      "acr": -1.6739,
-      "rpi": 0.2383,
-      "sos": 0.3125
+      "acr": -1.6235,
+      "rpi": 0.3348,
+      "sos": 0.475
     },
     {
       "rank": 79,
-      "team": "Stonehill",
+      "team": "New Haven",
       "record": "0-4",
-      "acr": -1.7181,
-      "rpi": 0.2955,
-      "sos": 0.4125
+      "acr": -1.6595,
+      "rpi": 0.396,
+      "sos": 0.625
     },
     {
       "rank": 80,
       "team": "Longwood",
-      "record": "0-4",
-      "acr": -1.8245,
-      "rpi": 0.2331,
-      "sos": 0.2875
+      "record": "0-5",
+      "acr": -1.6699,
+      "rpi": 0.2646,
+      "sos": 0.34
     },
     {
       "rank": 81,
       "team": "Merrimack",
-      "record": "0-4",
-      "acr": -2.0597,
-      "rpi": 0.2464,
-      "sos": 0.3125
+      "record": "0-5",
+      "acr": -1.9241,
+      "rpi": 0.2517,
+      "sos": 0.32
     },
     {
       "rank": 82,
       "team": "Mercyhurst",
       "record": "1-4",
-      "acr": -2.136,
-      "rpi": 0.1773,
-      "sos": 0.0667
+      "acr": -2.2048,
+      "rpi": 0.1831,
+      "sos": 0.1
     },
     {
       "rank": 83,
       "team": "Saint Francis",
       "record": "0-1",
-      "acr": -2.9656,
-      "rpi": 0.0167,
+      "acr": -3.0346,
+      "rpi": 0.025,
       "sos": 0.0
     }
   ],
@@ -716,10 +716,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "St. Joseph's"
+        "opponent": "St. Joseph's",
+        "team_score": 5,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -835,10 +838,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "3:00 pm (EST)",
-        "opponent": "Lafayette"
+        "opponent": "Lafayette",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -960,10 +966,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "VCU"
+        "opponent": "VCU",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -1064,10 +1073,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "4:00 pm (EST)",
-        "opponent": "Georgetown"
+        "opponent": "Georgetown",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -1183,10 +1195,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Boston University"
+        "opponent": "Boston University",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -1296,10 +1311,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Longwood"
+        "opponent": "Longwood",
+        "team_score": 8,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -1415,10 +1433,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Iowa"
+        "opponent": "Iowa",
+        "team_score": 2,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -1543,10 +1564,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "3/2:00 pm (CST)",
-        "opponent": "Northwestern"
+        "opponent": "Northwestern",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -1668,10 +1692,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Maryland"
+        "opponent": "Maryland",
+        "team_score": 0,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -1784,10 +1811,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Massachusetts"
+        "opponent": "Massachusetts",
+        "team_score": 0,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -2016,10 +2046,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Monmouth"
+        "opponent": "Monmouth",
+        "team_score": 1,
+        "opp_score": 8,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -2120,10 +2153,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Davidson"
+        "opponent": "Davidson",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -2245,10 +2281,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "California"
+        "opponent": "California",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -2364,10 +2403,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Harvard"
+        "opponent": "Harvard",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -2483,10 +2525,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Hofstra"
+        "opponent": "Hofstra",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -2593,10 +2638,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Virginia"
+        "opponent": "Virginia",
+        "team_score": 0,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -2712,10 +2760,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "11:00 am (EST)",
-        "opponent": "Rider"
+        "opponent": "Rider",
+        "team_score": 5,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -2950,10 +3001,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "11:00 am (EST)",
-        "opponent": "Holy Cross"
+        "opponent": "Holy Cross",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -3069,10 +3123,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "North Carolina"
+        "opponent": "North Carolina",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -3194,10 +3251,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "La Salle"
+        "opponent": "La Salle",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -3286,10 +3346,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Brown"
+        "opponent": "Brown",
+        "team_score": 4,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -3402,10 +3465,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Bucknell"
+        "opponent": "Bucknell",
+        "team_score": 10,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -3619,10 +3685,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "11:00 am (EST)",
-        "opponent": "Stanford"
+        "opponent": "Stanford",
+        "team_score": 1,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -3744,10 +3813,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Delaware"
+        "opponent": "Delaware",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -3869,10 +3941,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "3:00 pm (EST)",
-        "opponent": "Drexel"
+        "opponent": "Drexel",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -4101,10 +4176,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Richmond"
+        "opponent": "Richmond",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -4211,10 +4289,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Syracuse"
+        "opponent": "Syracuse",
+        "team_score": 0,
+        "opp_score": 10,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -4315,10 +4396,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "11:00 am (EST)",
-        "opponent": "Indiana"
+        "opponent": "Indiana",
+        "team_score": 1,
+        "opp_score": 7,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -4446,10 +4530,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Maine"
+        "opponent": "Maine",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -4556,10 +4643,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": null,
-        "opponent": "UMass Lowell"
+        "opponent": "UMass Lowell",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -4675,10 +4765,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Yale"
+        "opponent": "Yale",
+        "team_score": 0,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -4782,10 +4875,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Saint Louis"
+        "opponent": "Saint Louis",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -4901,10 +4997,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Kent State"
+        "opponent": "Kent State",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -5026,10 +5125,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Lehigh"
+        "opponent": "Lehigh",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -5145,10 +5247,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Cornell"
+        "opponent": "Cornell",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -5374,10 +5479,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Wagner"
+        "opponent": "Wagner",
+        "team_score": 8,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -5499,10 +5607,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "UConn"
+        "opponent": "UConn",
+        "team_score": 3,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -5615,10 +5726,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Villanova"
+        "opponent": "Villanova",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -5731,10 +5845,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Columbia"
+        "opponent": "Columbia",
+        "team_score": 0,
+        "opp_score": 9,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -5841,10 +5958,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Appalachian State"
+        "opponent": "Appalachian State",
+        "team_score": 6,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -5972,10 +6092,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Louisville"
+        "opponent": "Louisville",
+        "team_score": 4,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -6085,10 +6208,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Wake Forest"
+        "opponent": "Wake Forest",
+        "team_score": 0,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -6210,10 +6336,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "American"
+        "opponent": "American",
+        "team_score": 1,
+        "opp_score": 6,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -6335,10 +6464,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "11:00 am (EST)",
-        "opponent": "Bryant"
+        "opponent": "Bryant",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -6573,10 +6705,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Ohio"
+        "opponent": "Ohio",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -6710,10 +6845,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "4:00 pm (EST)",
-        "opponent": "William & Mary"
+        "opponent": "William & Mary",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -6826,10 +6964,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Michigan State"
+        "opponent": "Michigan State",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -6945,10 +7086,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Towson"
+        "opponent": "Towson",
+        "team_score": 6,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -7531,10 +7675,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Providence"
+        "opponent": "Providence",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -7662,10 +7809,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "11:00 am (EST)",
-        "opponent": "Temple"
+        "opponent": "Temple",
+        "team_score": 0,
+        "opp_score": 5,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -7778,10 +7928,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Princeton"
+        "opponent": "Princeton",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -7894,10 +8047,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "James Madison"
+        "opponent": "James Madison",
+        "team_score": 7,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8001,10 +8157,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "3/2:00 pm (CST)",
-        "opponent": "Miami (OH)"
+        "opponent": "Miami (OH)",
+        "team_score": 2,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8117,10 +8276,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Duke"
+        "opponent": "Duke",
+        "team_score": 0,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8233,10 +8395,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "11:00 am (EST)",
-        "opponent": "Northeastern"
+        "opponent": "Northeastern",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8361,10 +8526,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": null,
-        "opponent": "Merrimack"
+        "opponent": "Merrimack",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8480,10 +8648,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "New Hampshire"
+        "opponent": "New Hampshire",
+        "team_score": 6,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8596,10 +8767,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Rutgers"
+        "opponent": "Rutgers",
+        "team_score": 4,
+        "opp_score": 3,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8706,10 +8880,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Dartmouth"
+        "opponent": "Dartmouth",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8831,10 +9008,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "11:00 am (EST)",
-        "opponent": "Ball State"
+        "opponent": "Ball State",
+        "team_score": 7,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -8944,10 +9124,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Central Michigan"
+        "opponent": "Central Michigan",
+        "team_score": 2,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -9176,10 +9359,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Queens (NC)"
+        "opponent": "Queens (NC)",
+        "team_score": 3,
+        "opp_score": 2,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -9292,10 +9478,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Liberty"
+        "opponent": "Liberty",
+        "team_score": 0,
+        "opp_score": 8,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -9393,10 +9582,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Fairfield"
+        "opponent": "Fairfield",
+        "team_score": 2,
+        "opp_score": 4,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -9500,10 +9692,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "LIU"
+        "opponent": "LIU",
+        "team_score": 9,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -9607,10 +9802,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Penn State"
+        "opponent": "Penn State",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -9714,10 +9912,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Boston College"
+        "opponent": "Boston College",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -9928,10 +10129,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "UC Davis"
+        "opponent": "UC Davis",
+        "team_score": 3,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -10044,10 +10248,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "12:00 pm (EST)",
-        "opponent": "Ohio State"
+        "opponent": "Ohio State",
+        "team_score": 0,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
@@ -10136,10 +10343,13 @@
         "ot": null
       },
       {
-        "status": "upcoming",
+        "status": "final",
         "date": "Sun, \n                Sep 13",
-        "time": "1:00 pm (EST)",
-        "opponent": "Sacred Heart"
+        "opponent": "Sacred Heart",
+        "team_score": 1,
+        "opp_score": 2,
+        "result": "L",
+        "ot": null
       },
       {
         "status": "upcoming",
