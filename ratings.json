@@ -1935,7 +1935,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Sep 13",
-        "time": "4:00 pm (EST)",
+        "time": null,
         "opponent": "Stonehill"
       },
       {
@@ -6573,7 +6573,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Sep 13",
-        "time": "4:00 pm (EST)",
+        "time": null,
         "opponent": "UAlbany"
       },
       {
