@@ -1108,7 +1108,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Sep 25",
-        "time": "2:00 pm (EST)",
+        "time": "1:00 pm (EST)",
         "opponent": "Northeastern"
       },
       {
@@ -3840,7 +3840,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Sep 25",
-        "time": "2:00 pm (EST)",
+        "time": "1:00 pm (EST)",
         "opponent": "William & Mary"
       },
       {
@@ -5750,6 +5750,12 @@
         "date": "Fri, \n                Oct 16",
         "time": "3:00 pm (EST)",
         "opponent": "William & Mary"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 18",
+        "time": "12:00 pm (EST)",
+        "opponent": "Virginia"
       },
       {
         "status": "upcoming",
@@ -8685,6 +8691,12 @@
       },
       {
         "status": "upcoming",
+        "date": "Sun, \n                Oct 18",
+        "time": "12:00 pm (EST)",
+        "opponent": "Monmouth"
+      },
+      {
+        "status": "upcoming",
         "date": "Mon, \n                Oct 19",
         "time": "5:00 pm (EST)",
         "opponent": "Monmouth"
@@ -10010,7 +10022,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Sep 25",
-        "time": "3:00 pm (EST)",
+        "time": "1:30 pm (EST)",
         "opponent": "Columbia"
       },
       {
@@ -10126,7 +10138,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Sep 25",
-        "time": "3:00 pm (EST)",
+        "time": "1:30 pm (EST)",
         "opponent": "Brown"
       },
       {
