@@ -1675,7 +1675,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 18",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "Bellarmine"
       },
       {
@@ -2544,12 +2544,6 @@
         "date": "Fri, \n                Oct 23",
         "time": "12:00 pm (EST)",
         "opponent": "Ball State"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sat, \n                Oct 24",
-        "time": "12:00 pm (EST)",
-        "opponent": "Queens (NC)"
       },
       {
         "status": "upcoming",
@@ -3825,12 +3819,6 @@
         "opp_score": 9,
         "result": "L",
         "ot": null
-      },
-      {
-        "status": "upcoming",
-        "date": "Sat, \n                Oct 24",
-        "time": "12:00 pm (EST)",
-        "opponent": "Ohio"
       },
       {
         "status": "upcoming",
@@ -10414,7 +10402,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 23",
-        "time": "3:00 pm (EST)",
+        "time": "2:30 pm (EST)",
         "opponent": "Longwood"
       },
       {
@@ -11108,7 +11096,7 @@
       {
         "status": "upcoming",
         "date": "Sun, \n                Oct 18",
-        "time": "1:00 pm (EST)",
+        "time": null,
         "opponent": "Louisville"
       },
       {
@@ -11406,7 +11394,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 23",
-        "time": "3:00 pm (EST)",
+        "time": "2:30 pm (EST)",
         "opponent": "Massachusetts"
       },
       {
