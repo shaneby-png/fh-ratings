@@ -7881,7 +7881,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 30",
-        "time": "3:00 pm (EST)",
+        "time": "1:00 pm (EST)",
         "opponent": "Hofstra"
       },
       {
@@ -9517,7 +9517,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Oct 30",
-        "time": "3:00 pm (EST)",
+        "time": "1:00 pm (EST)",
         "opponent": "Towson"
       }
     ],
@@ -11818,143 +11818,6 @@
         "opponent": "Columbia"
       }
     ],
-    "Harvard": [
-      {
-        "status": "final",
-        "date": "Fri, \n                Sep 4",
-        "opponent": "UMass Lowell",
-        "team_score": 5,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Sep 6",
-        "opponent": "UConn",
-        "team_score": 1,
-        "opp_score": 0,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Fri, \n                Sep 11",
-        "opponent": "Massachusetts",
-        "team_score": 1,
-        "opp_score": 3,
-        "result": "L",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Sep 13",
-        "opponent": "Boston College",
-        "team_score": 2,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Fri, \n                Sep 18",
-        "opponent": "Dartmouth",
-        "team_score": 2,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Sep 20",
-        "opponent": "Northeastern",
-        "team_score": 1,
-        "opp_score": 0,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sat, \n                Sep 26",
-        "opponent": "Princeton",
-        "team_score": 2,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Fri, \n                Oct 2",
-        "opponent": "Penn",
-        "team_score": 4,
-        "opp_score": 0,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Oct 4",
-        "opponent": "Wake Forest",
-        "team_score": 2,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Fri, \n                Oct 9",
-        "opponent": "Cornell",
-        "team_score": 4,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Oct 11",
-        "opponent": "Syracuse",
-        "team_score": 3,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sat, \n                Oct 17",
-        "opponent": "Brown",
-        "team_score": 3,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "final",
-        "date": "Sun, \n                Oct 18",
-        "opponent": "Boston University",
-        "team_score": 5,
-        "opp_score": 1,
-        "result": "W",
-        "ot": null
-      },
-      {
-        "status": "upcoming",
-        "date": "Fri, \n                Oct 23",
-        "time": "5:00 pm (EST)",
-        "opponent": "Columbia"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sun, \n                Oct 25",
-        "time": "12:00 pm (EST)",
-        "opponent": "Monmouth"
-      },
-      {
-        "status": "upcoming",
-        "date": "Sat, \n                Oct 31",
-        "time": "1:00 pm (EST)",
-        "opponent": "Yale"
-      }
-    ],
     "Penn": [
       {
         "status": "final",
@@ -12361,6 +12224,143 @@
         "date": "Sat, \n                Oct 31",
         "time": "12:00 pm (EST)",
         "opponent": "Penn"
+      }
+    ],
+    "Harvard": [
+      {
+        "status": "final",
+        "date": "Fri, \n                Sep 4",
+        "opponent": "UMass Lowell",
+        "team_score": 5,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Sep 6",
+        "opponent": "UConn",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Fri, \n                Sep 11",
+        "opponent": "Massachusetts",
+        "team_score": 1,
+        "opp_score": 3,
+        "result": "L",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Sep 13",
+        "opponent": "Boston College",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Fri, \n                Sep 18",
+        "opponent": "Dartmouth",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Sep 20",
+        "opponent": "Northeastern",
+        "team_score": 1,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sat, \n                Sep 26",
+        "opponent": "Princeton",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Fri, \n                Oct 2",
+        "opponent": "Penn",
+        "team_score": 4,
+        "opp_score": 0,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Oct 4",
+        "opponent": "Wake Forest",
+        "team_score": 2,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Fri, \n                Oct 9",
+        "opponent": "Cornell",
+        "team_score": 4,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Oct 11",
+        "opponent": "Syracuse",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sat, \n                Oct 17",
+        "opponent": "Brown",
+        "team_score": 3,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "final",
+        "date": "Sun, \n                Oct 18",
+        "opponent": "Boston University",
+        "team_score": 5,
+        "opp_score": 1,
+        "result": "W",
+        "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Oct 23",
+        "time": "5:00 pm (EST)",
+        "opponent": "Columbia"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sun, \n                Oct 25",
+        "time": "12:00 pm (EST)",
+        "opponent": "Monmouth"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sat, \n                Oct 31",
+        "time": "1:00 pm (EST)",
+        "opponent": "Yale"
       }
     ],
     "Dartmouth": [
