@@ -4113,6 +4113,12 @@
         "opp_score": 3,
         "result": "W",
         "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Nov 6",
+        "time": "12:00 pm (EST)",
+        "opponent": "UC Davis"
       }
     ],
     "Fairfield": [
@@ -6113,6 +6119,18 @@
         "opp_score": 6,
         "result": "L",
         "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Fri, \n                Nov 6",
+        "time": "12:00 pm (EST)",
+        "opponent": "Queens (NC)"
+      },
+      {
+        "status": "upcoming",
+        "date": "Sat, \n                Nov 7",
+        "time": "12/9:00 am (PST)",
+        "opponent": "Delaware"
       }
     ],
     "Central Michigan": [
@@ -6432,6 +6450,12 @@
         "opp_score": 2,
         "result": "W",
         "ot": null
+      },
+      {
+        "status": "upcoming",
+        "date": "Sat, \n                Nov 7",
+        "time": "12/9:00 am (PST)",
+        "opponent": "UC Davis"
       }
     ],
     "Villanova": [
@@ -12705,7 +12729,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Nov 6",
-        "time": null,
+        "time": "2:30 pm (EST)",
         "opponent": "Cornell"
       }
     ],
@@ -13304,7 +13328,7 @@
       {
         "status": "upcoming",
         "date": "Fri, \n                Nov 6",
-        "time": null,
+        "time": "2:30 pm (EST)",
         "opponent": "Princeton"
       }
     ],
